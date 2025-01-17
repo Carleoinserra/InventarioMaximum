@@ -1,0 +1,2331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc><!-- descrizione file digitale -->
+         <titleStmt>
+            <title type="main" xml:lang="cu-Cyrs">Слово по поводу несбывшегося астрологического предсказания всемирного потопа в 1524 г. [Slovo po povodu nesbyvšegosja astrologičeskogo predskazanija vsemirnogo potopa v 1524 g.]</title>   <!-- 01. Inventario COLONNA F -->
+            <title type="alt" xml:lang="cu-Cyrs" source="lista-bibliografia.xml#MG-1894 #Iva-1969">Инока Максима слово обличительно отчасти латынскаго злословия, въ немже и на альманаха, иже возвелерѣчевавша, потопа всемирнаго быти, иже нѣкогда поминаемыхъ губительнѣиша [Inoka Maksima slovo obličitel'no otčasti latynskago zloslovija, v'' nemže i na al'manacha, iže vozvelerěčevavša, potopa vsemirnago byti, iže někogda pominaemych'' gubitel'něiša] (Maksim Grek 1894: 365-387; Ivanov 1969: 126-127)</title>   <!-- 01. Inventario COLONNA G -->
+            <!-- ? -->
+            <title type="alt-apparatus" xml:lang="cu-Cyrl" source="lista-manoscritti.xml#Troic-200 #Troic-201 #F-I-425">Того же инока Максима Грека слово обличительно отчасти латынскаго злословиа, в нем же и на алманака, иже възвелерѣчева потопа всемирнаго быти иже нѣкогда поминаемых губительнѣиша (ms. RGB, f. 304, Troic. 200, ff. 330v-336v; ms. RGB, f. 304, Troic. 201, ff. 571r-582r; ms. RNB, F.I.425, ff. 449r-461r)</title> 
+          
+         </titleStmt>
+         
+         <editionStmt> <!-- info edizione digitale -->
+            <edition>Digital edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>MaximHum</name>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by</resp>
+               <name>Nome</name>
+               <name>Nome</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-encoded by</resp>
+               <name>Letizia Ricci</name>
+               <name>Nome</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <pubPlace>Luogo</pubPlace>
+            <date>Data</date>
+            <distributor>Distributor</distributor>
+            <availability>
+               <p>L'edizione è disponibile su licenza.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> <!-- descrizione della fonte originale -->
+            
+            <bibl type="external-catalogue"> <!-- identificativo del testo secondo catalogazione Ivanov -->
+               <idno type="Ivanov">164</idno>
+            </bibl>
+            
+            <bibl type="reference-edition">    <!-- 01. Inventario COLONNA D -->
+               <ref target="lista-bibliografica.xml#MG-2008"><name>Maksim Grek</name>, <date>2008</date></ref>: <biblScope unit="page" from="359" to="372">359–372</biblScope>, <biblScope unit="chapter">nr. II.19</biblScope> 
+            </bibl> 
+            <!-- entrata bibliografica completa in LISTA ESTERNA -->
+            
+            <listBibl type="other-editions">  <!-- 01. Inventario COLONNA E (tanti <bibl></bibl> qaunte sono le "altre edizioni" -->
+               <bibl>
+                  <ref target="lista-bibliografica.xml#MG-1894"><name>Maksim Grek</name>, <date>1894</date></ref>: <biblScope unit="page" from="365" to="387">365–387</biblScope>, <biblScope unit="chapter">nr. 22</biblScope>
+               </bibl> 
+            </listBibl>
+            
+            <msDesc type="reference-ms" xml:id="basic-witness" corresp="lista-manoscritti.xml#Bolš-285"><!-- descrizione del manoscritto base dell'edizione-->
+               <msIdentifier> <!-- info estese del manoscritto in LISTA ESTERNA-->
+                  <msName>РГИА, ф. 834, оп. 3, 4025</msName>   <!-- 02. Inventario testimone base COLONNA D -->
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus type="foliation" target="#106r #120v">лл. 106-120об. / ff. 106r-120v</locus>   <!-- 02. Inventario testimone base COLONNA G -->
+                     <title xml:lang="cu-Cyrs">Слово обличительно отчасти латынскаго злославиа, в нем же и на алманака, иже възвелерѣчева потопа всемирнаго быти иже нѣкогда поминаемых губительнѣиша, Максима инока Святыа горы</title>   <!-- 01. Inventario COLONNA i -->
+                     <incipit xml:lang="cu-Cyrs">Просто слово и неухищренно, не зане простых нѣких и малого достоиных хощет повѣствовати, не зане нѣсть ему разум показание мудрости нѣкиа излишии и преухищрены, но да яко от глубины звѣзднаго прелщениа отведетъ не в лѣпоту погруженых.</incipit>   <!-- 01. Inventario COLONNA J -->
+                     <explicit xml:lang="cu-Cyrs">Доволенъ вам отвѣтъ тогда будет, наипаче же съглаголникъ вам и похвалитель Христос будетъ, иже речет к вам: «Благо ти, рабе добре и вѣрне, на малых был еси вѣренъ, на многих тебе поставлю, вниди в радость Господа твоего».</explicit>   <!-- 01. Inventario COLONNA K -->
+                  </msItem> 
+               </msContents>
+            </msDesc>
+            
+            <listWit xml:lang="cu-Cyrs"> <!-- lista dei testimoni, tanti <witness></witness> quanti sono i testimoni di controllo in 03. Inventario testimoni di controllo--> 
+               <witness corresp="#basic-witness" ana="#reference-ms" xml:id="A"/> <!-- OPZIONALE: xml:id da mantenese solo se è indicata la lettera 02. Inventario testimone base COLONNA E  -->
+               <witness xml:id="П">   <!-- 03. Inventario testimoni di controllo COLONNE E -->
+                  <ref target="lista-manoscritti.xml#F-I-425">РНБ, F.I.425</ref>, <locus type="foliation" target="#449r #461r">лл. 449-461 / ff. 449r-461r</locus>   <!-- 03. Inventario testimoni di controllo COLONNE D - H - G -->
+               </witness>
+               <witness xml:id="Т">   <!-- 03. Inventario testimoni di controllo COLONNE E -->
+                  <ref target="lista-manoscritti.xml#Troic-200">РГБ, ф. 304, Троицк. 200</ref>, <locus type="foliation" target="#330v #336v">лл. 330об.-336об. / ff. 330v-336v</locus>    <!-- 03. Inventario testimoni di controllo COLONNE D - H - G -->
+               </witness>
+               <witness xml:id="Тр">   <!-- 03. Inventario testimoni di controllo COLONNE E -->
+                  <ref target="lista-manoscritti.xml#Troic-201">РГБ, ф. 304, Троицк. 201</ref>, <locus type="foliation" target="#571r #582r">лл. 571-582 / ff. 571r-582r</locus>    <!-- 03. Inventario testimoni di controllo COLONNE D - H - G -->
+               </witness> 
+            </listWit> 
+            
+         </sourceDesc>
+      </fileDesc>
+      <!-- 
+         
+         <creation>
+            <date resp="lista-bibliografia.xml#MG-2008" from="1552" to="1552">1552 <note type="editorial"><ref><bibl>Maksim Grek 2008 <citedRange unit="page" from="167" to="167">167</citedRange></bibl></ref></note></date>  01. Inventario COLONNA P 
+         </creation> 
+         <creation> 
+            <date resp="#MG-2008">Febbraio 1524-febbraio 1525 (Maksim Grek 2008: 36)</date>    
+         </creation> 
+       -->
+      <profileDesc>
+         
+         <creation> <!-- datazione -->
+            <date resp="lista-bibliografia#MG-2008" from="1524" to ="1525">Febbraio 1524-Febbraio 1525<note type="editorial"><ref><bibl>Maksim Grek 2008 <citedRange unit="page" from="36" to="36">36</citedRange></bibl></ref></note></date>    <!-- 01. Inventario COLONNA O -->
+         </creation> 
+         
+         <langUsage>
+            <language ident="sl">Slavo</language>
+         </langUsage>
+         
+         <textClass> <!-- classificazione testo in base a tassonomie -->
+            <keywords scheme="#label">   <!-- 01. Inventario COLONNA L -->
+               <term>Слово</term>  
+            </keywords>
+            <keywords scheme="#scope">    <!-- 01. Inventario COLONNA P -->
+               <term>Polemica antiastrologica</term> 
+            </keywords>
+         </textClass>
+         
+         <textClass>
+            <keywords scheme="#attribution"> <!--  testo originale / traduzione (fonte) / dubium (bibl. secondaria) -->
+               <term target="#original">Testo originale</term>    <!-- 01. Inventario COLONNA N --> 
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      <encodingDesc>
+         
+         <classDecl>  <!-- tassonomie (rimangono invariate) -->
+            <taxonomy>
+               <category xml:id="label">
+                  <catDesc>Literary label</catDesc> 
+               </category>
+               <category xml:id="scope">
+                  <catDesc>Thematic scope</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <classDecl>
+            <taxonomy xml:id="attribution">
+               <category>
+                  <catDesc>Attribution</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+         <variantEncoding method="double-end-point" location="external"/>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+   <!-- <pb type="folio" n="л. 51" rend="label-margin-left"/>   INDICA   [л. 51] -->
+   <!-- <metamark function="end-page" rend="//"/>     INDICA     // -->
+   <!-- <anchor xml:id="v5" n="5" rend="super"/>     INDICA    ^5^ --> 
+   <!--  <cit><quote xml:id="biblical-1">«ПраведенъГосподи, и прави суди Твои»</quote></cit>   INDICA la citazione-->
+   <text xml:lang="cu-Cyrs">
+   
+      <front> <!-- titolo del testo nel  manoscritto (se presente) --> 
+         <p><pb type="folio" n="л. 106" rend="label-margin-right"/>Слово<anchor xml:id="vI-1" n="I-1" rend="super"/> обличительно отчасти латынскаго злославиа<anchor xml:id="v2" n="2" rend="super"/>, в нем же и на Алманака, иже възвелерѣчева потопа всемирнаго быти иже нѣкогда поминаемых губительнѣиша, <anchor xml:id="v3a1" n="3" rend="super"/>Максима инока Святыа Горы<anchor xml:id="cI-1" n="I-а" rend="super"/><anchor xml:id="v3a2" n="3" rend="super"/>.</p>  
+      </front>
+      
+      <body>
+         <p>Просто слово и неухищренно, <anchor xml:id="v4a1" n="4" rend="super"/>не зане<anchor xml:id="c2" n="б" rend="super"/><anchor xml:id="v4a2" n="4" rend="super"/> простых нѣких и малого достоиных хощет повѣствовати, не<anchor xml:id="v5" n="5" rend="super"/> зане нѣсть ему разум<anchor xml:id="v6" n="6" rend="super"/> показание мудрости нѣкиа излишии<anchor xml:id="v7" n="7" rend="super"/> и преухищрены, но да яко от глубины звѣзднаго прелщениа отведетъ не в лѣпоту погруженых. Но да не дивитеся предсловиа зѣлности, лютою бо<anchor xml:id="v8" n="8" rend="super"/> болѣзнию внутрьняа обдержимъ есмь, не токмо зане вы<anchor xml:id="v9" n="9" rend="super"/>, неисцѣлными стражуще, не сматряите лѣпое, ниже изтрезвитися отнюдь въ умѣ имате, но зане и Господьских правых путеи неудержанѣ развращаете и зане тщитеся присно, да яко и беззлобивое множество вѣрных в ту же прелести<anchor xml:id="v10" n="10" rend="super"/> пропасть низведете, яко<anchor xml:id="v11" n="11" rend="super"/> неудовляющися<anchor xml:id="v12" n="12" rend="super"/> бедѣ своеи, ниже бо сами не вѣсте, якова<anchor xml:id="v13" n="13" rend="super"/> бѣда належит и<anchor xml:id="v14" n="14" rend="super"/> от Господа <anchor xml:id="v15a1" n="15" rend="super"/>виновным соблазновъ<anchor xml:id="v15a2" n="15" rend="super"/>. Глаголет бо Господь сице явьственѣ: <cit><quote xml:id="biblical-1">«Иже аще соблазнит единого от малых сихъ<anchor xml:id="v16" n="16" rend="super"/> вѣру<metamark function="end-page" rend="//"/><pb type="folio" n="л. 106 об." rend="label-margin-left"/> ющих в<anchor xml:id="c3" n="в" rend="super"/> Мя, уне есть, да обѣсится жерновъ осельскии<anchor xml:id="c4" n="г" rend="super"/><anchor xml:id="v17" n="17" rend="super"/> о выи его и потопится в пучинѣ морскои»</quote></cit>. Аще убо единого от вѣровавших<anchor xml:id="v18" n="18" rend="super"/> въ Господа соблажняющу сице грознѣиша бѣда належит, что убо умыслит<anchor xml:id="v19" n="19" rend="super"/> кто от<anchor xml:id="v20" n="20" rend="super"/> соблажняющих не единого и дву, но покушающихся всецѣлу<anchor xml:id="v21" n="21" rend="super"/> Церковь, добрѣ о Господѣ събранну и състоящуся, развращати и от апостольскаго и отчепреданнаго мудрованиа отлучити? Отнюду же и овогда убо латынскими злоученми, яже от своих чревъ умышлясте, сиающее<anchor xml:id="v22" n="22" rend="super"/> ея<anchor xml:id="v23" n="23" rend="super"/> апостольское и отчепреданное<anchor xml:id="v24" n="24" rend="super"/> мудрование развращати не боитеся, овогда же валаамовыми<anchor xml:id="v25" n="25" rend="super"/> злохитрии дѣиствующе и бѣсовскими звѣздѣ<anchor xml:id="v26" n="26" rend="super"/> угадании простых людеи знати к вам увѣщаваете и оттуду имѣти вѣрити збытиа житии своих.</p>
+         <p>Но доволнѣ Слову предглаголавшу, время уже къ преложенному<anchor xml:id="v27" n="27" rend="super"/> разуму обратити его<anchor xml:id="v28" n="28" rend="super"/>, еже и да учитъ<anchor xml:id="v29" n="29" rend="super"/> вас не мудръствовати паче еже подобаетъ мудръствовати<anchor xml:id="c5" n="д" rend="super"/>, но мудръствовати<anchor xml:id="v30" n="30" rend="super"/> еже цѣломудръствовати. И аще убо благополучнѣ стрѣлитъ, Богу слава, по примѣте устремление Его исправльшему. Аще же погрѣшит предложениа и вашеи мысли не <metamark function="end-page" rend="//"/><pb type="folio" n="л. 107" rend="label-margin-left"/> прикоснется, и тако слава Богу, въздвигшему нас к вашему исправлению, аще и вы пластиръ отринусте преизлишиа ради прѣниа.</p>
+         <p>О человѣци, аще отнюдь Христу вѣрите и воскресение мерътвых и Судию праведнаго с небесъ чаете<anchor xml:id="c6" n="е" rend="super"/>, пред Ним же и станутъ вси иже от вѣка человѣцы, слово отдающе коиждо от съдѣянных Ему, даже и до слова<anchor xml:id="c7" n="ж" rend="super"/> празнаго, по изречению Судии, что ради святых Его обѣщании и непреложных словесъ яже к праведному Ноеви пренебрегше и далече от себе<anchor xml:id="c8" n="з" rend="super"/> изгнавше, и звѣздозрителным лщениемъ и халдѣиским бѣсоучениемъ послѣдующе, проповѣдаете<anchor xml:id="c9" n="и" rend="super"/><anchor xml:id="v31" n="31" rend="super"/> измѣнению и преиначинению<anchor xml:id="v32" n="32" rend="super"/> быти всѣх сущих и двизающихся на земли словесных и безсловесных Идрохоом<anchor xml:id="v33" n="33" rend="super"/>, яково же не бысть изначала мира<anchor xml:id="v34" n="34" rend="super"/>, ниже слышано бысть<anchor xml:id="v35" n="35" rend="super"/> от древних лѣтописцов? И сице крѣпцѣ держитеся сих, яко удобнѣе убо отведетъ вас кто от въздушнаго дыханиа сего, нежели отлучит зрѣниа сих. И сиа глаголю, не простое<anchor xml:id="v36" n="36" rend="super"/> небесных<anchor xml:id="c10" n="к" rend="super"/> ведѣние укаряа, нужно сущее и ключимо житию сему, елико вѣдѣти<anchor xml:id="v37" n="37" rend="super"/> свѣтил<anchor xml:id="v38" n="38" rend="super"/> обхожениа и схожениа<anchor xml:id="v39" n="39" rend="super"/>, и гибели и течениа прочих звѣздъ, ими же есть неблазненѣ числяти вѣка сего и глаголемаа фаскалиа правѣ держати. <metamark function="end-page" rend="//"/><pb type="folio" n="л. 107 об." rend="label-margin-right"/> Не сие вѣдѣние азъ злословлю, но чресъ мѣру носящееся и яже<anchor xml:id="v40" n="40" rend="super"/> Богу единому знаема излишнѣ испытующее, и вѣрныхъ от Бога злохитренѣ отлучающее, и сицевым звѣздъ устроениемъ внимати увѣщавающее, еже овѣх убо звѣздъ благотворных, овѣх же злотворных показующее, отнюду же не<anchor xml:id="c11" n="л" rend="super"/> дни токмо и часы, но и<anchor xml:id="c12" n="м" rend="super"/> человѣков злых или<anchor xml:id="v41" n="41" rend="super"/> благих бывати блядущее — сие азъ укаряю и нечестие называю, и непщую со всѣми иже<anchor xml:id="v42" n="42" rend="super"/> от вѣка въ благочестии въсиавшими блажеными мужи, его же и вам<anchor xml:id="v43" n="43" rend="super"/> вѣмъ проповѣдники и стаинники и заступники теплѣиши, и яко не лжу, близ показание есть, его же вы и иже окрестъ вас свидѣтели неотметни есте, иже непреложных Съдѣтель<anchor xml:id="v44" n="44" rend="super"/> всѣх къ праведному Ноеви обѣщанеи и завѣта, иже к нему ввѣки<anchor xml:id="v45" n="45" rend="super"/> аки ложных зазрѣвше и злочестивому Алмонака угаданию вѣровавше, потоплению грознѣишему всѣх бывших от вѣка быти скоро по всеи вселенѣи проповѣдати<anchor xml:id="v46" n="46" rend="super"/> не стыдитеся. О нем же нынѣ солгавшу срамляющеся, не потопу водному, но измѣнению и приначению<anchor xml:id="v47" n="47" rend="super"/> быти <anchor xml:id="v48a1" n="48" rend="super"/>всѣх сущих на земли предрекша<anchor xml:id="v49" n="49" rend="super"/> глаголете, угаданиа<anchor xml:id="v48a2" n="48" rend="super"/>. Аще и Алмонак <metamark function="end-page" rend="//"/><pb type="folio" n="л. 108" rend="label-margin-right"/> явьственѣ водою сему быти исповѣдует, ими же глаголетъ ко Идрохою<anchor xml:id="v50" n="50" rend="super"/> прочим звѣздам стещися хотящимъ и сицевое<anchor xml:id="c13" n="н" rend="super"/> растлѣние приводити въ вселеную, вод же и дожжев<anchor xml:id="c14" n="о" rend="super"/> възвѣщателная<anchor xml:id="v51" n="51" rend="super"/> и виновна исповѣдуете вы Идрохоа<anchor xml:id="v52" n="52" rend="super"/>.</p>
+         <p>Но время уже и к вам рещи глаголъ блаженнаго Павла, иже к галатом пишет: <cit><quote xml:id="biblical-2">«О, несмыслении<anchor xml:id="v53" n="53" rend="super"/>» латини! «Кто вам завидѣ<anchor xml:id="v54" n="54" rend="super"/> истинѣ не покарятися?»</quote></cit>, <anchor xml:id="c15a1" n="п" rend="super"/>течясте добрѣ, кто васъ запял истинѣ не покарятися<anchor xml:id="c15a2" n="п" rend="super"/>, иже дни соблюдаете и мѣсяца и времена и лѣта? Но якоже видится, случися и вам завѣщанное каласаеном от того же апостола, и украдостеся внѣшнею<anchor xml:id="c16" n="р" rend="super"/> <cit><quote xml:id="biblical-3">«философиею<anchor xml:id="v55" n="55" rend="super"/>, тщею лестию, по преданию человѣковъ, по стихиам мира сего, а не по Христѣ»</quote></cit>. И не дивно. Много бо у вас Стагирит<anchor xml:id="c17" n="с" rend="super"/><anchor xml:id="v56" n="56" rend="super"/>, обтекая вас, паче же потапляа перипатитскими силлогисмы и хитрословии, неже<anchor xml:id="c18" n="т" rend="super"/><anchor xml:id="v57" n="57" rend="super"/> попущая вас удобь слагатися<anchor xml:id="v58" n="58" rend="super"/> реченым пророки и апостолы таиньственѣ о<anchor xml:id="v59" n="59" rend="super"/> горнѣишии Троицы, аще не по его хитрословным силлогисмом догма исправляется, но или яко гнилу сию отметати или претворити ю безстрашнѣ<anchor xml:id="c19" n="у" rend="super"/><anchor xml:id="v60" n="60" rend="super"/> ко угодию пе<metamark function="end-page" rend="//"/><pb type="folio" n="л. 108 об." rend="label-margin-left"/> рипатитскиа хитрости. И аще не долгота глаголемых стужала<anchor xml:id="v61" n="61" rend="super"/> бы мысли предлежащиа<anchor xml:id="v62" n="62" rend="super"/> вещи, показал бы убо вам сиа и самѣми вещми и яко оттуду устрамляющеся<anchor xml:id="v63" n="63" rend="super"/> множаиших яже у христианъ честных таинъ, овѣхъ убо отнюдь растлѣсте, овѣх же къ угодию вашему претвористе<anchor xml:id="v64" n="64" rend="super"/>, всякъ отечьскии уставъ превративше. Но да не непщуете мене сего ради укаряти внѣшнее наказание, полезно сущее и мало не всѣми свидѣтелствуемо восиавшими въ благочестии. Не тако азъ неблагодаренъ ученикъ его, аще и ни въ предвериих его доволнѣ пребыхъ, но чрез лѣпаго износимому многоиспытному разума<anchor xml:id="v65" n="65" rend="super"/> взыскующих е зазираю. Зане лѣпо им благочестиве проходити е и умнѣ причащатися, и<anchor xml:id="v66" n="66" rend="super"/> собирающим<anchor xml:id="v67" n="67" rend="super"/> споспѣшествующаа ко утвержению христианскиа вѣры, и еже божественыи Павелъ глаголетъ, <cit><quote xml:id="biblical-4">«плѣняюще всякого разума въ Христа»</quote></cit> и вездѣ <anchor xml:id="v68a1" n="68" rend="super"/>понижати е<anchor xml:id="v68a2" n="68" rend="super"/>, акы рабыню еуагельскиа истины водити и непщевати е<anchor xml:id="v69" n="69" rend="super"/>. Сопротивно сии<anchor xml:id="v70" n="70" rend="super"/> творят, всѣх<anchor xml:id="v71" n="71" rend="super"/> себе предаша ему, отторгшеся истины и чрез все свое житие Аристотелю и Платону и прочеи чредѣ еллинскои, узриши убо <metamark function="end-page" rend="//"/><pb type="folio" n="л. 109" rend="label-margin-left"/> ихъ прилежащих и ими гостящихся и ихъ всѣх дышущих. Отнюду же елико развращение догматовъ и злочестие ражается<anchor xml:id="v72" n="72" rend="super"/> мыслех учащихся ему, ни едино слово доволно представити. Свидѣтель азъ сих всѣх достовѣренъ<anchor xml:id="v73" n="73" rend="super"/>, не яко слышатель и самовидецъ токмо онѣх во Италии и в Лонгобардии, но и общитель<anchor xml:id="c20" n="ф" rend="super"/><anchor xml:id="v74" n="74" rend="super"/> нѣкогда бывъ им. И аще не бы иже о всѣх спасении пекиися Богъ помиловав мя, скорѣе посѣтил благодатию Своею и свѣтом Своим озарилъ мысль мою, издавна убо и азъ погиблъ бы с сущими тамо нечестиа предстатели. О коликих азъ во Италии познах нечестиемъ языческих<anchor xml:id="v75" n="75" rend="super"/> недугующих и<anchor xml:id="v76" n="76" rend="super"/> сущиа у вас честнѣишиа таины поругавшихся! От них же единъ Козмикъ<anchor xml:id="v77" n="77" rend="super"/> ферарискии<anchor xml:id="v78" n="78" rend="super"/>, иных превъсходя всяким внѣшнимъ учением, иже и умираа, глаголаше учеником и другом своим: «Радуитеся со мною, о любимици, заутра бо почию въ Елисеех полях съ Сократом и Платоном и всѣми ирои<anchor xml:id="c21" n="х" rend="super"/>». Толико прельсти<anchor xml:id="v79" n="79" rend="super"/> его языческое учение<anchor xml:id="v80" n="80" rend="super"/>! Вторыи же по сем бысть в Патавии Сеса философ неаполитскии<anchor xml:id="c22" n="ц" rend="super"/>, иже толико зазрѣл<anchor xml:id="v81" n="81" rend="super"/> вашеи вѣре и обычаемъ, яко глаголати своим другом, егда в церкви хожаше: <metamark function="end-page" rend="//"/><pb type="folio" n="л. 109 об." rend="label-margin-right"/> «Да идем и мы ко общеи прелести». Аггела же<anchor xml:id="v82" n="82" rend="super"/> Полициана, въ Флорентии бывшаго, кто не вѣсть, во всяком нечестии восиавшаго и нечистѣ и злѣ душу свою испустившаго? А иныи<anchor xml:id="v83" n="83" rend="super"/> индѣ всяким нечестиемъ исполнени, иже и идолом воистину капища въздвигнули бы издавна, аще не бы удержалъ их запрещаемыи папою страх.</p>
+         <p>Но възвращати лѣпо Слово, откуду изыде, и показати, яко не токмо Стагиритом и иным внѣшним учениемъ украдостеся от истины христианьскиа, но яко и еже глаголете въ оправдание ваше, велми посмѣятелно есть, зане такова держаще<anchor xml:id="v84" n="84" rend="super"/>, в божественых папу вашего вездѣ предлагаете и данную верховную<anchor xml:id="v85" n="85" rend="super"/> Петру власть, и тѣм, аки нѣким страшилищем, простѣиших устрашающе не престаете злѣ, и в сие, якоже<anchor xml:id="v86" n="86" rend="super"/> и во иных мудръствующе. Ибо данная власть верховному, сирѣчь, елика аще рѣшитъ и свяжетъ на земли, тако быти <anchor xml:id="v87a1" n="87" rend="super"/>тѣм и<anchor xml:id="v87a2" n="87" rend="super"/> на небеси, и прочимъ учеником такоже дана бысть, якоже тои же Матфеи свѣдѣтелствуеть. Таже<anchor xml:id="v88" n="88" rend="super"/> не дана бысть власть верховному претворяти Христово Еуагелие, сирѣчь законоположение еже в Немъ и еже о<anchor xml:id="v89" n="89" rend="super"/> го<metamark function="end-page" rend="//"/><pb type="folio" n="л. 110" rend="label-margin-right"/> рнѣишии Троици богословие, но рѣшити кающихся съгрѣшениа и спасение<anchor xml:id="v90" n="90" rend="super"/> их отечьски устраати, не зрящу <anchor xml:id="v91a1" n="91" rend="super"/>к лежащих<anchor xml:id="v91a2" n="91" rend="super"/> правил свѣрѣпьству, но<anchor xml:id="v92" n="92" rend="super"/> къ устроению кающихся или<anchor xml:id="v93" n="93" rend="super"/> сокращати<anchor xml:id="v94" n="94" rend="super"/> время или простирати. А от<anchor xml:id="v95" n="95" rend="super"/> еже ни малѣишее сущих въ Еуагелии дерзнути отнюдь претворити, заповѣдал ему<anchor xml:id="v96" n="96" rend="super"/> и всѣм рече<anchor xml:id="v97" n="97" rend="super"/> Господь: <cit><quote xml:id="biblical-5">«Иже аще разрѣшитъ едину от<anchor xml:id="v98" n="98" rend="super"/> заповѣдеи сих менших»</quote></cit> и прочая. Что же не достиже<anchor xml:id="v99" n="99" rend="super"/> ли и прежних римских святителеи, рекше Силверста<anchor xml:id="v100" n="100" rend="super"/>, Келестина, Лва, Агапита, Агафона, Андриана и иных многих та<anchor xml:id="vII-1" n="II-1" rend="super"/> же власть? Всякому явьствено, яко достиже. Которыи убо от нѣх<anchor xml:id="vII-2" n="II-2" rend="super"/> дерзнулъ когда претворити нѣчто от общепреданных православных догмат и церковных правил и обычаех и до 7-го Вселенскаго собора? Не вси ли съгласующе быша восточным<anchor xml:id="vII-3" n="II-3" rend="super"/> свѣтилником и съюзом любви, яже о святѣм Дусѣ, съединени къ друго<anchor xml:id="vII-4" n="II-4" rend="super"/> другу, управляху нарочитѣ яже вездѣ вѣрных Церквеи<anchor xml:id="vII-5" n="II-5" rend="super"/>? Не едино ли бяше вездѣ исповѣдание православныа вѣры, от Отца единого происходящаго Утѣшителя богословущее? Не ли крещение едино и то же <anchor xml:id="vII-6a1" n="II-6" rend="super"/>совершаше же<anchor xml:id="vII-6a2" n="II-6" rend="super"/>, сирѣчь в триехъ погружених, якоже апостольское по<metamark function="end-page" rend="//"/><pb type="folio" n="л. 110 об." rend="label-margin-right"/> велѣвает правило? Не едина ли просфира, с солию и квасом смѣшена, приношашеся в бескровнои службѣ, а не опресноки? И сие явьствено и от многих иных, паче же от них же дивнии святителие Василие<anchor xml:id="vII-7" n="II-7" rend="super"/> Великии и Златыи языкомъ божественыи Иоанъ<anchor xml:id="vII-8" n="II-8" rend="super"/> своим Церквам оставиша в Писаних. От них же божественыи убо Василие, противу<anchor xml:id="vII-9" n="II-9" rend="super"/> еретика Аполинариа боряся, в безумнои и бездушнои плоти облекшагося<anchor xml:id="vII-10" n="II-10" rend="super"/> Господа<anchor xml:id="vII-11" n="II-11" rend="super"/> догматствовавша и сего ради опрѣсноки приносити стаинником своим узаконившаго, аки соли убо человѣческаго ума образующи, по реченному въ Еуагелии: <cit><quote xml:id="biblical-6">«Имѣите соль»</quote></cit>, квасу же оживляющу тѣло, душу; <anchor xml:id="vII-12a1" n="II-12" rend="super"/>противу сию хулу<anchor xml:id="vII-12a2" n="II-12" rend="super"/> Аполинариа божественыи Василие боряся, сице предаде в писанных святои соборнои Христови Церкви: «Аще кто, рече, приноситъ опрѣсноки в жертву, да будетъ анатема<anchor xml:id="vII-13" n="II-13" rend="super"/>!» <anchor xml:id="vII-14a1" n="II-14" rend="super"/>И паки тои же: «Аще кто не влагает соль и квас в просфиру — да будетъ анафема<anchor xml:id="vII-14a2" n="II-14" rend="super"/>!» Божественыи же Златаустъ сице нам истину изъявил есть, глаголя въ Словѣ своем еже о Крестѣ: «Древняа мимоидоша, — рече, — вся быша нова; тамо ковчегъ, здѣ же Дѣва<anchor xml:id="vII-15" n="II-15" rend="super"/>; тамо жезлъ, здѣ крестъ, тамо опрѣсноки, здѣ хлѣбъ». <metamark function="end-page" rend="//"/><pb type="folio" n="л. 111" rend="label-margin-left"/> <anchor xml:id="vII-16a1" n="II-16" rend="super"/>Се како от сею обою учителю истина восиа! Вы же<anchor xml:id="vII-16a2" n="II-16" rend="super"/> что убо имате глаголати к сим? Рек бо: въ Древнем Завѣтѣ опрѣсноки, противу сих положил есть хлѣбъ, Нову Завѣту того свѣдѣтелствовавъ, аще же противу носите нам реченное к коринфяном блаженным Павлом: <cit><quote xml:id="biblical-7">«Изчистите убо ветхии квас, да будете ново смѣшение»</quote></cit>. И паки тои же: <cit><quote xml:id="biblical-8">«Тѣм же убо да празнуемъ не въ квасѣ ветхом, ниже въ квасѣ злобы и лукавства, но въ опрѣсноцѣх чистоты и истины»</quote></cit>, отвѣщаваем вам ничто же наше, но еже <anchor xml:id="vII-17a1" n="II-17" rend="super"/>слышахом от того же великаго<anchor xml:id="vII-18" n="II-18" rend="super"/> отца<anchor xml:id="vII-17a2" n="II-17" rend="super"/> и вселенскаго учителя Иоана Златаустаго, иже и по божественному откровению посланиа блаженнаго Павла истолкова, якоже яже<anchor xml:id="vII-19" n="II-19" rend="super"/> о нем историа являет. Глаголет же сице: «Укоривъ их преже блаженныи Павел, зане молчаша о поимшом свою мачеху<anchor xml:id="vII-20" n="II-20" rend="super"/> и зане презрѣша таково безаконие, совѣщаваетъ им прочее отступити ветхиа злобы, которои съживяху преже, сирѣчь скотскаго оного<anchor xml:id="vII-21" n="II-21" rend="super"/> и гнуснаго языческаго съжителства, еже и квас ветхии именова иносказателнѣ, по реченному Господемъ ко апостолом: <cit><quote xml:id="biblical-9">„Внимаите от кваса фарисеова<anchor xml:id="vII-22" n="II-22" rend="super"/>“</quote></cit>, сирѣчь безбожнаго учениа и безаконнаго жителства. <metamark function="end-page" rend="//"/><pb type="folio" n="л. 111 об." rend="label-margin-left"/> Жити же имъ повелѣвает, еже и спразновати<anchor xml:id="vII-23" n="II-23" rend="super"/> именова, в безквасиихъ чистоты и истины, сирѣчь, въ обычаех и жительствѣх<anchor xml:id="c23" n="ч" rend="super"/> святыхъ и чистых и в каковѣх подобаетъ христианомъ жителствовати». Видѣли ли есте, како уразумѣл божественыи сеи отець апостольское речение? И никако же приносимаго хлѣба въ священнои службѣ воспомянул есть, якоже вы развратнѣ истолкуете. Которому убо велите наивящше нам покарятися, въсиавшим ли древле во всякои святыни и божественнои премудрости Василию и Златоусту и прочимъ всѣм древним святым, или вам, преступившим<anchor xml:id="vII-24" n="II-24" rend="super"/> узаконеннаа ими и къ Аполинариевѣ ереси нас понужающим, ниже бо имѣете рещи апостольскому узаконению быти сему? Ваше бо реченными Василием и Златаустом обличается явьственѣ сие ваше оправдание.</p>
+         <p>Но толика и<anchor xml:id="vII-25" n="II-25" rend="super"/> о сем в настоящее довлѣютъ благоразумнѣ покаряющимся благовѣрному церковному преданию, ниже бо лѣть есть простиратися Слову, тщащуся къ предложению своему. Pазумъ бо сему бяше обличити безбожное <anchor xml:id="vII-26a1" n="II-26" rend="super"/>и ложное ваше<anchor xml:id="vII-26a2" n="II-26" rend="super"/> еже о потопѣ мнѣние, еже вы<anchor xml:id="c24" n="ш" rend="super"/> дерзостнѣ <metamark function="end-page" rend="//"/><pb type="folio" n="л. 112" rend="label-margin-right"/> зѣло възмѣчтасте, от своего чрева вѣщающе. Которыми, о человѣци, пророчьскими или апостольскими предвъзвѣщани извѣстившеся, таково хулное мудрование въ вселенеи отрыгнусте? Откуду гнусное сие заченше рожение въ свѣтъ произнесосте, тмы достоино <anchor xml:id="vII-27a1" n="II-27" rend="super"/>суще и<anchor xml:id="vII-27a2" n="II-27" rend="super"/> трофонииских норъ? Не вѣсте ли, о человѣци, аще отнудь христиане есте, яко не лѣтъ<anchor xml:id="vII-28" n="II-28" rend="super"/> вам ничто же чресъ писанныхъ и преданых нам пророки и апостолы и бывшими по них учители ниже мудръствовати ниже писати, аще убо правѣ мудръствовати в вѣрѣ хощем. Но негли речете, кто есть сиа узаконяаи<anchor xml:id="c25" n="щ" rend="super"/>? Самъ Господь нашь Иисус Христос въ священных Еуагелиах, идѣже обличил есть саддукеов, соблажняющихся о мудровани въскресениа, сице рекъ: <cit><quote xml:id="biblical-10">«Прелщаетеся, не вѣдяще<anchor xml:id="vII-29" n="II-29" rend="super"/> Писаниа»</quote></cit>. Еда не законополагающаго явьственѣ сие есть, ничто же смѣти<anchor xml:id="vII-30" n="II-30" rend="super"/> мудръствовати паче писаных? Аки бы реклъ: сего ради прелщаетеся, зане Святым Писаниемъ не покаряетеся, им же подобаетъ вам во всѣх послѣдовати и<anchor xml:id="vII-31" n="II-31" rend="super"/> истинѣ от них научатися, еда<anchor xml:id="vII-32" n="II-32" rend="super"/> не сие ли истое и<anchor xml:id="vII-33" n="II-33" rend="super"/> к вам латином рещи приличествуетъ: прелщаетеся, не вѣдяще писаниа <metamark function="end-page" rend="//"/><pb type="folio" n="л. 112 об." rend="label-margin-right"/> и силу Божию? <cit><quote xml:id="biblical-11">*Аще бо вѣровали бы им же, рече к праведному Ноеви иже всѣх Содѣтель и Владыка, яко въ вѣки не наведетъ ктому воднаго потопа на земли<anchor xml:id="vII-34" n="II-34" rend="super"/>, яко растлѣти всяку плоть*</quote></cit>, и яко <cit><quote xml:id="biblical-12">«невъзможно солгати Богу»</quote></cit>, и яко <cit><quote xml:id="biblical-13">«небо убо и земля преидетъ<anchor xml:id="vII-35" n="II-35" rend="super"/>, словеса же Моя не преидутъ»</quote></cit>, аще сиа вся вѣдали и вѣровали бы, не бы убо<anchor xml:id="vII-36" n="II-36" rend="super"/> таково безумие достигли. Что к сим глаголете? Еда<anchor xml:id="vII-37" n="II-37" rend="super"/> увѣщаваем<anchor xml:id="vII-38" n="II-38" rend="super"/> васъ сими, и<anchor xml:id="vII-39" n="II-39" rend="super"/> со истинною и нами уже стоите. Или еще<anchor xml:id="vII-40" n="II-40" rend="super"/> зелнѣиших цѣлебъ требуете? <anchor xml:id="vII-41a1" n="II-41" rend="super"/>Сие же съ Богом и сотворим<anchor xml:id="vII-41a2" n="II-41" rend="super"/>.</p>
+         <p>Нам мнятся таковаа безумствующии, яко единым от обою недугуют, или бо не вѣруютъ промышляти Содѣтелю о своих тварех, и по сему безбожни суть, или вѣруютъ убо, яко промышляет, а не всѣх, но небесных токмо, земных же управление зодиемъ<anchor xml:id="vII-42" n="II-42" rend="super"/> и планитом и глаголемому по них счастию попустил есть. И ниже сице избѣгнутъ безбожнаго осужениа, равно бо<anchor xml:id="vII-43" n="II-43" rend="super"/> въ обоих безбожьство есть. Аще же промышляет<anchor xml:id="vII-44" n="II-44" rend="super"/> Съдѣтель своих твареи и сице печется о них, яко ниже<anchor xml:id="vII-45" n="II-45" rend="super"/> птицѣ в сѣти падати<anchor xml:id="vII-46" n="II-46" rend="super"/> свѣне воли Его и<anchor xml:id="vII-47" n="II-47" rend="super"/> <cit><quote xml:id="biblical-14">«власомъ нашим не внѣ числа быти у Него»</quote></cit>, якоже рече Господь во Еуагелиех, <metamark function="end-page" rend="//"/><pb type="folio" n="л. 113" rend="label-margin-left"/> како возможно будет зодиамъ и планитом таково погубление навести Божиам тварем, <anchor xml:id="vII-48a1" n="II-48" rend="super"/>содержащаго Его сих и соблюдающаго<anchor xml:id="vII-48a2" n="II-48" rend="super"/> содѣтелною дланию Своею? Аще же аки стѣсняеми от истины ко астрологическому<anchor xml:id="vII-49" n="II-49" rend="super"/> художеству прибѣгаете, глаголюще, яко вѣдѣние<anchor xml:id="vII-50" n="II-50" rend="super"/> астрологическое сице даетъ и умышляти и<anchor xml:id="vII-51" n="II-51" rend="super"/> мудръствовати, и никако же мощно не <anchor xml:id="vII-52a1" n="II-52" rend="super"/>тако симъ<anchor xml:id="vII-52a2" n="II-52" rend="super"/> быти, паки просто сице отвѣщаем вамъ, яко непостижимыи Божии Промыслъ, иже всяческая всепремудре управляет и устрааетъ и содержит, не звѣзднымъ нужам и планитческимъ схожениамъ подлежитъ, но Сам владѣетъ всѣми и управляет вся, якоже хощетъ. Хощетъ же всяко праведнѣ сим и благословнѣ управлятися непостижимом своим и всемудрымъ Промыслом, а не от звѣздъ и зодиевъ нужи бесловеснѣ и безчиннѣ обноситися, якоже вы хулите, неотрочну нѣкую непщующе силу лстящих<anchor xml:id="vII-53" n="II-53" rend="super"/> вас планитъ и зодиевъ. Аще же было<anchor xml:id="vII-54" n="II-54" rend="super"/> бы в них такова сила, якову мечтаете вы, издавна убо все сие погибло бы, неотрочными звѣздными насиловано нужами. Аще не божественым нѣким праведным <metamark function="end-page" rend="//"/><pb type="folio" n="л. 113 об." rend="label-margin-left"/> мановением<anchor xml:id="vII-55" n="II-55" rend="super"/>, но своею силою и обношениемъ, якоже вы глаголете, таковаа <anchor xml:id="vII-56a1" n="II-56" rend="super"/>наводятъ погублени<anchor xml:id="vII-56a2" n="II-56" rend="super"/>, аще же, нами вразумлени бывше, глаголите, яко божественым мановениемъ<anchor xml:id="vII-57" n="II-57" rend="super"/> имѣютъ сиа случитися<anchor xml:id="vII-58" n="II-58" rend="super"/>, даите нам свидѣтельства, откуду имате сиа приемше, от которых пророчьских и апостольских или учительских списанию<anchor xml:id="vII-59" n="II-59" rend="super"/>. Кто по богевиднем Моисеи предвозгласилъ есть быти на земли второму потоплению? Pците, аще имате. Но не можете, аще и безчисленѣ потрудитеся.</p>
+         <p>Хощете ли, и инако нечестивых покажу таковая или пишущих или мудръствующих. Но не смущаитеся, оста бо ся вам спасениа надежа. Аще хощете каятися<anchor xml:id="vII-60" n="II-60" rend="super"/>, яко убо прелстишася явьственѣ от<anchor xml:id="vII-61" n="II-61" rend="super"/> них же, кромѣ Святаго Писаниа мудръствуютъ, доволно<anchor xml:id="vII-62" n="II-62" rend="super"/> выше обличило ихъ есть<anchor xml:id="vII-63" n="II-63" rend="super"/> Слово. Что же хощетъ, им да рекут, еже приводят на конци злобѣснаго угаданиа своего глаголюще: «Въздвигнете убо главы ваша, о мужие христиане». Или непщуете к невѣжам нѣкимъ и разума пустым такова велерѣчивати<anchor xml:id="vII-64" n="II-64" rend="super"/>? Что же ино хотятъ им <anchor xml:id="vII-65a1" n="II-65" rend="super"/>малѣишая она<anchor xml:id="vII-65a2" n="II-65" rend="super"/> рѣчи, развѣ яко иже единою упражняемѣи мудрости вѣ<metamark function="end-page" rend="//"/><pb type="folio" n="л. 114" rend="label-margin-right"/> ка сего прилепившеся, отсѣкоша себе христианскаго собора многим буиством, осудивше Святых Писании? Сего же<anchor xml:id="vII-66" n="II-66" rend="super"/> ради и с высокою бровию свое<anchor xml:id="c26" n="ы" rend="super"/> злочестие проповѣдующе, поругаются нам, благочестивым, зѣло гордостнѣ, и воздвигнути главы наша, сирѣчь разумов, повелѣвают, точию не глаголюще: о безумнии христиане, иже Моисеискому писанию покаряющися<anchor xml:id="vII-67" n="II-67" rend="super"/>, не чаете второе потопление преже скончаниа всяческих!</p>
+         <p>Уразумѣите, аще можете, яко прелстистеся, и воспряните от лести<anchor xml:id="c27" n="ь" rend="super"/><anchor xml:id="vII-68" n="II-68" rend="super"/> сеа! Еда не явьственѣ ли поругающеся нам<anchor xml:id="vII-69" n="II-69" rend="super"/>, глаголите? Не иного ли нѣкоего безбожнаго собора языческаго, негли и халдѣискаго, сообѣщниковъ себе явьственѣ исповѣдуете, о<anchor xml:id="vII-70" n="II-70" rend="super"/> них же нас христианъ называете? Иже бо супротивная нѣким мудръствуаи и нарицаниа их себе отлучааи, явьственъ есть, яко иным путем шествует. Или не тѣм же презорством и фарисеи новопросвѣщенна слѣпаго поношаху и<anchor xml:id="c28" n="ъ" rend="super"/><anchor xml:id="vII-71" n="II-71" rend="super"/> глаголюще пред соборомъ: <cit><quote xml:id="biblical-15">«Ты еси ученикъ Его<anchor xml:id="vII-72" n="II-72" rend="super"/>»</quote></cit>? Мы же толико отстоим ухаплятися сими, яко и благодарим вас, о нем же христианох нас зовете, и главы наша, сирѣчь разум, въздвизаемъ на <metamark function="end-page" rend="//"/><pb type="folio" n="л. 114 об." rend="label-margin-right"/> горы, еже есть на высоты разума Святых Писании, и оттуду обилно просвѣщение почерпающе, съ блаженным въспѣваемъ Давидом: <cit><quote xml:id="biblical-16">«Повѣдаша мнѣ законопреступницы глумлениа, но не якоже законъ Твои, Господи»</quote></cit>. И паки: <cit><quote xml:id="biblical-17">«Прокляти укланяющеися от заповѣдеи Твоих»</quote></cit>. Котории ли<anchor xml:id="vII-73" n="II-73" rend="super"/> будут<anchor xml:id="vII-74" n="II-74" rend="super"/> безаконницы<anchor xml:id="vII-75" n="II-75" rend="super"/> глумлениа повѣдующеи, развѣ иже съ злочестивым Алмонаком глаголютъ преиначению и измѣнению снитиемъ планит и зодиев еже въ Идрохоѣ<anchor xml:id="c29" n="э" rend="super"/> быти, яково же изначала не бысть? Иже пренебрегоша святых Божиих обѣщаних<anchor xml:id="vII-76" n="II-76" rend="super"/>, яже ко праведному Ноеви, ими же<anchor xml:id="vII-77" n="II-77" rend="super"/> человѣколюбивыи Владыка не единою, но и<anchor xml:id="vII-78" n="II-78" rend="super"/> множицею утверждаетъ праведнаго словесы, много<anchor xml:id="vII-79" n="II-79" rend="super"/> убо отечьское и попечителное имущими, множае же<anchor xml:id="vII-80" n="II-80" rend="super"/> опасное и непреложне<anchor xml:id="vII-81" n="II-81" rend="super"/>.</p>
+         <p>Но да приведутся на среду и Владыки всѣх ко праведному Ноеви святая словеса и да являют<anchor xml:id="vII-82" n="II-82" rend="super"/> Его же къ человѣческому роду многопопечение и промышление еже къ прочеи твари<anchor xml:id="vII-83" n="II-83" rend="super"/>, и яко в мѣрилѣ правды и казнит<anchor xml:id="vII-84" n="II-84" rend="super"/> и щедрит, и яко Его божественым повелѣниемъ<anchor xml:id="vII-85" n="II-85" rend="super"/> носится все сие и благословнѣ и благочиннѣ управляется, <metamark function="end-page" rend="//"/><pb type="folio" n="л. 115" rend="label-margin-right"/> а не обношенми безсловесными и безчинными зодиевъ и планит, егда убо сиа<anchor xml:id="vII-86" n="II-86" rend="super"/> небесное быстрое движение нужнѣ собою съобнесетъ. Но преже неже<anchor xml:id="vII-87" n="II-87" rend="super"/> привести глаголаннаа Богомъ к Ноеви, оно да соблюдем, яко божественое Писание триехъ ради винъ наипаче показуетъ Владыку всѣх наводящаго благословнѣ казни человѣком, или зѣлнаго ради блуда и нечистоты житиискиа<anchor xml:id="vII-88" n="II-88" rend="super"/>, или нечестиа ради еже к Нему и покорениа<anchor xml:id="vII-89" n="II-89" rend="super"/>, или преступлениа ради заповѣдеи своих. И первыа убо вины показание есть род, иже при Нои и Содома и Гомора. Вторыа яже<anchor xml:id="vII-90" n="II-90" rend="super"/> фарао<anchor xml:id="vII-91" n="II-91" rend="super"/> и весь Египет, въ краине<anchor xml:id="vII-92" n="II-92" rend="super"/> нечестие достигше и Владыцѣ всѣх, безчисленаа Моисеом чюдодѣиствовавшу пред ними отнюдь не покоршеся. Третиа же израилтяне людие, по удержании обѣтованныа им земля<anchor xml:id="vII-93" n="II-93" rend="super"/>, тмами от иноплеменникъ озлоблени преже бывше, преступлениа ради Владычних заповѣдеи, послѣ же и во Вавилонъ отведошася пленени. Сиа же не простѣ и всуе речеся мною, но да покажу<anchor xml:id="vII-94" n="II-94" rend="super"/>, <anchor xml:id="vII-95a1" n="II-95" rend="super"/>яко Алмонаково суесловие о потопѣ<anchor xml:id="vII-95a2" n="II-95" rend="super"/> не токмо нечестиво есть, аки Богу Владыцѣ всѣх и угоднику Его Моисею противляющеся без <metamark function="end-page" rend="//"/><pb type="folio" n="л. 115 об." rend="label-margin-left"/>студнѣ, но<anchor xml:id="vII-96" n="II-96" rend="super"/> и конечнѣ безсловесьства и буиства исполнено<anchor xml:id="vII-97" n="II-97" rend="super"/> есть, за еже ни едину от предреченных винъ предлагати, ими же Владыка всѣх мучити обыче безаконствующих, якоже предречеся, едину же вину полагает, точию безсловесное планит к зодиам схожение. Отнюду же явьственъ есть нечестиемъ послѣдним недугуя, зане бездушнои и глухои вещи всеа твари възлагает управление, а не Богу, <cit><quote xml:id="biblical-18">«носящему всячьскаа глаголомъ силы Своеа»</quote></cit>, апостольски рещи.</p>
+         <p>Но время уже и предобѣщаннаа нам вышше сматряти и излиха обличати Алмонаково суесловие, яко ложно и хулно есть. Яко бо<anchor xml:id="vII-98" n="II-98" rend="super"/> Съдѣтель и Соблюдатель всячьских и промышляет и попечение имать о нашем спасении и яко не без вины казни наводит нам, явьственѣише убо и от иных безчисленых и<anchor xml:id="vII-99" n="II-99" rend="super"/> словесъ и вещеи, и наипаче от них же Святое Писание бывшее<anchor xml:id="vII-100" n="II-100" rend="super"/> при Нои потопление повѣствуетъ. Имѣетъ же сице Писание<anchor xml:id="vIII-1" n="III-1" rend="super"/>: <cit><quote xml:id="biblical-19">«Растлѣ же ся земля пред Богомъ и исполнися земля неправды»</quote></cit>. Сиа рѣчи оглаголание убо обдержат<anchor xml:id="vIII-2" n="III-2" rend="super"/> нашеа злобы, отвѣта же Божиа праведнаго суда, яко не безвиннѣ наводит казни, но промыслителнѣ, вкупѣ и отечьски <metamark function="end-page" rend="//"/><pb type="folio" n="л. 116" rend="label-margin-left"/> обращает нас неисцѣлнѣ устраяющихся. Таже Владычнее еже о нас попечение являет и яко зѣло радит<anchor xml:id="vIII-3" n="III-3" rend="super"/> ему о нашем спасении, глаголет бо: <cit><quote xml:id="biblical-20">«И видѣ Господь Богъ землю и бѣ растлѣвшися, зане растлѣ всяка плоть путь свои на земли»</quote></cit>. Сим же речением, еже видѣ неизглаголанное еже о нас Владыки знаменова любление, ихъ же бо желаем, сих и зрѣниемъ несытно наслажаемся, яко и<anchor xml:id="vIII-4" n="III-4" rend="super"/> никто же <anchor xml:id="vIII-5a1" n="III-5" rend="super"/>удобь нашею очию от них<anchor xml:id="vIII-6" n="III-6" rend="super"/> отвести<anchor xml:id="vIII-5a2" n="III-5" rend="super"/>. Таже глаголетъ: <cit><quote xml:id="biblical-21">«Рече Господь<anchor xml:id="vIII-7" n="III-7" rend="super"/> к Ноеви: Время всякого человѣка прииде предо Мною, зане исполнися земля неправды их, и се Азъ растлю ихъ и землю»</quote></cit>. Не<anchor xml:id="vIII-8" n="III-8" rend="super"/> недостоино<anchor xml:id="vIII-9" n="III-9" rend="super"/> възмнѣ человѣколюбивыи Владыка разсудитися къ созданию руку Своею, яко не Сам радуется о<anchor xml:id="vIII-10" n="III-10" rend="super"/> человѣческои погибели, но сами они своего губительства виновни бышя. Время, рече, прииде, сирѣчь, отмщениа и праваго суда. Отдавна, рече, ихъ безаконьствующих тръплю, яко рече: «Земля исполнися неправды от них», вину зде изглагает, чесого<anchor xml:id="vIII-11a1" n="III-11" rend="super"/> ради разстлѣти их раздѣлил<anchor xml:id="vIII-12" n="III-12" rend="super"/> есть. Не Азъ, рече, виновен ихъ погибели, но сами раздражиша Мене долготерпѣливаго своими безаконии. Таже являет праведному и образа их погибели <metamark function="end-page" rend="//"/><pb type="folio" n="л. 116 об." rend="label-margin-right"/> и глаголетъ: <cit><quote xml:id="biblical-22">«Азъ же се навожу потопа на землю<anchor xml:id="vIII-13" n="III-13" rend="super"/> растлѣти всяку плоть»</quote></cit>. <anchor xml:id="vIII-14a1" n="III-14" rend="super"/>Въ что<anchor xml:id="vIII-14a2" n="III-14" rend="super"/> же приречеся: «се Азъ»? Удовляше бо рещи: се навожу потопление. Да не убо простѣ или преизлишиемъ<anchor xml:id="vIII-15" n="III-15" rend="super"/> приречено бывше, да непщуемъ сие. Но понеже в то время <anchor xml:id="vIII-16a1" n="III-16" rend="super"/>по нужи множаиша была въ человѣцѣх<anchor xml:id="vIII-16a2" n="III-16" rend="super"/> звѣздочетная<anchor xml:id="vIII-17" n="III-17" rend="super"/> прелесть, за еже от Сифа начало имѣла, якоже Иосипъ<anchor xml:id="vIII-18" n="III-18" rend="super"/> евреанинъ пишет, и зане<anchor xml:id="vIII-19" n="III-19" rend="super"/> множаиша нѣчто нѣкаа безмѣстна мудрьствоваху тогдашнии человѣци, якоже и настоящии, зодиом и<anchor xml:id="vIII-20" n="III-20" rend="super"/> планитским<anchor xml:id="vIII-21" n="III-21" rend="super"/> обхожениам и счастию всяческаа възлагающе, сего убо ради человѣколюбивыи Владыка отечьски вкупѣ и учительски приложил есть: еже «се Аз», точию не глаголя: не внемли, о человѣче, суетнаа учащим и от чрева своего гласящим. Не Идрохоосъ воду испустит на земли прочим зодиам и звѣздам к ним стещися<anchor xml:id="vIII-22" n="III-22" rend="super"/>, но «Аз»<anchor xml:id="vIII-23" n="III-23" rend="super"/>, сирѣчь, Мое мановение, Мои совѣтъ и Мое<anchor xml:id="vIII-24" n="III-24" rend="super"/> повелѣние отверзет убо свышше «небесныа хляби», отдолу же разверзет<anchor xml:id="vIII-25" n="III-25" rend="super"/> <cit><quote xml:id="biblical-23">«бездныа<anchor xml:id="vIII-26" n="III-26" rend="super"/> источники»</quote></cit>, и сице погубится всяка плоть.<anchor xml:id="vIII-11a2" n="III-11" rend="super"/></p>
+         <p>А яко ктому не наведется земли<anchor xml:id="vIII-27" n="III-27" rend="super"/> сицево<anchor xml:id="vIII-28" n="III-28" rend="super"/> погубление, явѣ Святое Писание научило есть, <metamark function="end-page" rend="//"/><pb type="folio" n="л. 117" rend="label-margin-right"/> идѣже вводит<anchor xml:id="vIII-29" n="III-29" rend="super"/> Съдѣтеля глаголюща<anchor xml:id="vIII-30" n="III-30" rend="super"/>, имѣет же сице Писание: <cit><quote xml:id="biblical-24">«Рече же Господь Богъ размыслив: Не приложу ктому проклинати землю дѣлъ ради человѣческих<anchor xml:id="vIII-31" n="III-31" rend="super"/>, зане прилежит разум человѣческии прилѣжьнѣ на лукаваа от юности, не приложу убо уязвити всяку плоть, якоже сътворих»</quote></cit>. Что словесъ сих крѣпчае или твердѣе или истиннѣишее? Съдѣтель Сам к Себѣ бесѣдует, аки утвержая нас и опасных творя, да не боимся ктому, ниже чаем сицево нѣчто. Сего ради и вину прилагает: зане, рече, разум человѣческии прилежит прилѣжнѣ на лукаваа от юности, еже есть немощно им, плотяном сущим, плотских<anchor xml:id="vIII-32" n="III-32" rend="super"/> забыти скоктании и похотеи, отнюду же множицею нужно<anchor xml:id="vIII-33" n="III-33" rend="super"/> будетъ погубляти ихъ от земля. Сие же чюже есть Моеа благости, но долгим терпѣниемъ и тихостию и иными<anchor xml:id="vIII-34" n="III-34" rend="super"/> наказании да устрааются яже о нѣх. Сего же<anchor xml:id="vIII-35" n="III-35" rend="super"/> ради и увторяет<anchor xml:id="vIII-36" n="III-36" rend="super"/> того же слова, болши утвержаа нас, человѣколюбивыи Владыка и глаголеть: «Не приложу убо уязвити всяку плоть, <anchor xml:id="vIII-37a1" n="III-37" rend="super"/>якоже<anchor xml:id="vIII-37a2" n="III-37" rend="super"/> сътворих<anchor xml:id="vIII-38" n="III-38" rend="super"/>». Доволна убо и сиа была бы къ совершеному изъявлению, еже не чаяти ктому потоплению быти въ всеи вселенѣи, аще бы къ благоразумным нѣким Слово нами просте<metamark function="end-page" rend="//"/><pb type="folio" n="л. 117 об." rend="label-margin-left"/> рлося. Понеже убо к латином Слово есть, иже паче всѣх человѣковъ<anchor xml:id="vIII-39" n="III-39" rend="super"/> языческими прелщении и халдеискими<anchor xml:id="c30" n="ю" rend="super"/><anchor xml:id="vIII-40" n="III-40" rend="super"/> бѣсоучении ослѣпишася, принеси убо и прочаа пророчьскаа и священная словеса, да разсмотрим, ими же человѣколюбивыи Владыка утвержаетъ праведнаго Ноа<anchor xml:id="vIII-41" n="III-41" rend="super"/> и имъ всего человѣческаго рода не боятися ктому<anchor xml:id="vIII-42" n="III-42" rend="super"/> въ вѣки сицева<anchor xml:id="vIII-43" n="III-43" rend="super"/> губительства. Имѣют же сице божественая словеса: <cit><quote xml:id="biblical-25">«Се Азъ воставляю завѣтъ Мои вам, и сѣмени вашему <anchor xml:id="vIII-44a1" n="III-44" rend="super"/>послѣ вас<anchor xml:id="vIII-44a2" n="III-44" rend="super"/>, и всякои души живущеи с вами»</quote></cit>. И увторяа<anchor xml:id="vIII-45" n="III-45" rend="super"/> глаголеть того же слова: <cit><quote xml:id="biblical-26">«И поставлю завѣтъ Мои к<anchor xml:id="c31" n="я" rend="super"/> вам, и не умрет ктому всяка плоть от воды <anchor xml:id="vIII-46a1" n="III-46" rend="super"/>потопа, и ктому не будет<anchor xml:id="vIII-46a2" n="III-46" rend="super"/> потопление водное разтлѣти всю землю»</quote></cit>.</p>
+         <p>Что словесъ сих свѣтлѣишее или твердѣише<anchor xml:id="vIII-47" n="III-47" rend="super"/>? Прозрите слѣпии и<anchor xml:id="vIII-48" n="III-48" rend="super"/> глухии услышите, аще можете, и разумѣите неразумнии, кто есть сиа глаголяи! И разумѣвше, ужаснитеся и исчезните от лица Господа Саваофа, Содѣтель всяческих, иже вся творитъ и преобразует, якоже хощет, гласом силы Своеа. Обѣщавает нам не боятися ктому нѣкого<anchor xml:id="vIII-49" n="III-49" rend="super"/> такова<anchor xml:id="vIII-50" n="III-50" rend="super"/>, и вы бестуднѣ глаголете быти потопу звѣздным обношениемъ. Кто сиа глаголяи и утвержааи? Не слышите<anchor xml:id="vIII-51" n="III-51" rend="super"/> ли <metamark function="end-page" rend="//"/><pb type="folio" n="л. 118" rend="label-margin-left"/> Исаиа, глаголющаго явѣ: <cit><quote xml:id="biblical-27">«Cеи<anchor xml:id="vIII-52" n="III-52" rend="super"/> съвѣтъ, им же совѣтова Господь на всю вселенную, и сиа рука высока на вся языкы. Яже бо Богъ святыи совѣтова, кто расточит, и руку Его высоку кто отвратит?»</quote></cit>. Еда<anchor xml:id="vIII-53" n="III-53" rend="super"/> разумѣсте<anchor xml:id="vIII-54" n="III-54" rend="super"/> от сих священных словесъ крѣпкое и непогрѣшителное Вседержителя Бога <anchor xml:id="vIII-55a1" n="III-55" rend="super"/>обѣтованиа и<anchor xml:id="vIII-55a2" n="III-55" rend="super"/> истинны, или еще держитеся любимаго вам непокорениа и прѣниа, <anchor xml:id="vIII-56a1" n="III-56" rend="super"/>своиственѣише же<anchor xml:id="vIII-56a2" n="III-56" rend="super"/> рещи, невѣриа? Аще бо вѣровали бы Святымъ Писанием и тѣм ухо ваше послушателнѣ<anchor xml:id="vIII-57" n="III-57" rend="super"/> приклонили, не бы убо падали в сицевых хулных пропастех. Но да не<anchor xml:id="cII-1" n="II-а" rend="super"/> вся пророчьскаа многа сущая<anchor xml:id="cII-2" n="II-б" rend="super"/><anchor xml:id="vIII-58" n="III-58" rend="super"/> в долготу простру Слово, лет бо всякому в руцѣ пророчьство приемшу разумѣти болши еже о сих опасение принеси, убо мала нѣкаа прирекше, Cлово да заключим<anchor xml:id="vIII-59" n="III-59" rend="super"/>.</p>
+         <p>Мы убо, о человѣци, благодатию Христовою от начала христиане бывше и въ апостольских<anchor xml:id="vIII-60" n="III-60" rend="super"/> и отечьскихъ воспитани учительствех же и преданих<anchor xml:id="vIII-61" n="III-61" rend="super"/> и благочестнѣ и непреложнѣ храняще яже от них и утверженнаа и запечатлѣнная, якоже убо научихомся, якоже вѣровахом, якоже дръжим и исповѣдуемъ съ онѣми, сице и пи<metamark function="end-page" rend="//"/><pb type="folio" n="л. 118 об." rend="label-margin-right"/> шем к вам и проповѣдаем<anchor xml:id="vIII-62" n="III-62" rend="super"/>, ничто же свое глаголюще или от<anchor xml:id="vIII-63" n="III-63" rend="super"/> себе помышляюще, якоже вы видитеся<anchor xml:id="vIII-64" n="III-64" rend="super"/> дерзающе, но от Святых Писанеи изъявлениа приемлюще и отечьскими толковани<anchor xml:id="vIII-65" n="III-65" rend="super"/> сиа проявляюще<anchor xml:id="vIII-66" n="III-66" rend="super"/>, созидаемся<anchor xml:id="vIII-67" n="III-67" rend="super"/> убо сами и свѣт разума приемлем, подаем же просвѣщенна<anchor xml:id="vIII-68" n="III-68" rend="super"/> и просящим его с вѣрою. Молим же, да и вы всяку прю отложивше и дмение, от внѣшняго лжеимѣннаго<anchor xml:id="vIII-69" n="III-69" rend="super"/> разума приражаемое невнимателнѣ ко оному прилѣпляющимся<anchor xml:id="vIII-70" n="III-70" rend="super"/>, приимѣте вѣрно<anchor xml:id="vIII-71" n="III-71" rend="super"/> сие лѣкование и съ блаженным Давидом глаголати выну въ смиреномудрии ко Владыцѣ всѣх: <cit><quote xml:id="biblical-28">«Скотенъ бых у Тебе, и азъ выну с Тобою»</quote></cit>. Что сие глаголя? Уразумѣвъ<anchor xml:id="vIII-72" n="III-72" rend="super"/>, рече, о Владыко, яко непостижима<anchor xml:id="vIII-73" n="III-73" rend="super"/> убо и неразумѣваема нѣкая<anchor xml:id="cII-3" n="II-в" rend="super"/> бездна есть сокровище судебъ божественнаго Ти разума; аз же червь, и не человѣкъ, довлѣюся, ими же приахъ о<anchor xml:id="vIII-74" n="III-74" rend="super"/> бывших преже мене старѣишинъ, и в сих<anchor xml:id="vIII-75" n="III-75" rend="super"/> почиваю, ничто же далѣ испытаа, моих бо помыслъ немощь<anchor xml:id="cII-4" n="II-г" rend="super"/> вѣмъ. Тѣм же и праведно судих сице просто и неиспытно Твоа святыа заповѣди<anchor xml:id="vIII-76" n="III-76" rend="super"/>, повелѣниа и<anchor xml:id="vIII-77" n="III-77" rend="super"/> судьбы и учительства приимати, якоже подъяремныи подъемлет своего владыки наложеную ему рабо<metamark function="end-page" rend="//"/><pb type="folio" n="л. 119" rend="label-margin-right"/> ту, иже обводим и обносим есть, идѣже аще Господь<anchor xml:id="vIII-78" n="III-78" rend="super"/> его управляет и<anchor xml:id="vIII-79" n="III-79" rend="super"/>.</p>
+         <p>Сие же судих сице у себе, да яко всегда с Тобою буду и пребуду неотлученъ божественыа Ти благодати. Немощно бо, немощно, о человѣци, внити нѣкоему въ обѣщанное нам царство небесное, якоже мною преже писано бѣ в первом послании моем, аще не якоже отроча приимет е<anchor xml:id="vIII-80" n="III-80" rend="super"/>, рекше<anchor xml:id="vIII-81" n="III-81" rend="super"/>, просто и неиспытно приемлющу яже о<anchor xml:id="vIII-82" n="III-82" rend="super"/> горнѣишии Троици откровеннаа нам божественаа учительства, и яже от богоносных отець, седмижды собравшихся, преданнаа и утверженнаа или толкованиа или обычаи или правила. Не бѣша бо они глаголюще, но Духъ Святыи, Иже от Отца исходитъ, якоже Господь изъявилъ есть, богословьствуа Его, есть же и Сына не чюжь, по словеси существа, якоже великии Кирил и весь святых ликъ богословьствуют, якоже бо единъ виновенъ Отецъ Единородному есть, сице и Утѣшителю единъ виновенъ происпущааи Его, Отецъ Единороднаго есть, да якоже въ прочих равнѣ суть богоначалныа ипостаси, сице и виною не разньствуют в равеньствѣ. Не отпадает Сынъ равеньства еже<anchor xml:id="vIII-83" n="III-83" rend="super"/> ко Отцу, якоже вы глаголете, аще и Тои не испущает Духа, ниже бо <metamark function="end-page" rend="//"/><pb type="folio" n="л. 119 об." rend="label-margin-right"/> Духъ умаляется от равеньства Отца и Сына, понеже не ражаетъ со Отцем Сына. Извѣт есть сиа младенець, наипаче сатанинско умышление, крадущее вас и в Савелиеву пропасть врѣвающее<anchor xml:id="vIII-84" n="III-84" rend="super"/>. Исповѣдующим бо<anchor xml:id="vIII-85" n="III-85" rend="super"/> и <anchor xml:id="vIII-86a1" n="III-86" rend="super"/>от Сына<anchor xml:id="vIII-86a2" n="III-86" rend="super"/> Духа Святаго виновнѣ происходяща, нужно есть<anchor xml:id="vIII-87" n="III-87" rend="super"/> едино от обою исповѣдати, или по существу или по<anchor xml:id="vIII-88" n="III-88" rend="super"/> ипостаси <anchor xml:id="vIII-89a1" n="III-89" rend="super"/>совокуплятися<anchor xml:id="vIII-90" n="III-90" rend="super"/> Отечьскои ипостаси<anchor xml:id="vIII-89a2" n="III-89" rend="super"/> Сыновною, въ еже происпущати им Утѣшителя. Но аще убо по существу глаголите съвокуплятися имъ, не токмо излишно инако слово есть, но и хуление<anchor xml:id="vIII-91" n="III-91" rend="super"/> мнѣние<anchor xml:id="cII-5" n="II-д" rend="super"/> немало подает<anchor xml:id="vIII-92" n="III-92" rend="super"/>. Едино бо существо в триех зрится ипостасех неразсѣкаемо и нерастоателно совокупляа иже существенѣ Сыновную ипостась Отечьскои видится, раздѣляа Утѣшителя от таковаго единоестественых естественаго съвокуплениа, еже всяческую хулу превъсходит. Аще же по <anchor xml:id="vIII-93a1" n="III-93" rend="super"/>ипостась съвокуплятися<anchor xml:id="vIII-93a2" n="III-93" rend="super"/> Им глаголите вижь, како явьственѣ савельствующе обличаетеся, ипостаси<anchor xml:id="vIII-94" n="III-94" rend="super"/> бо, поелико ипостаси суть, совокупление не приемлют по всѣх священных богословцех, но не смѣшени<anchor xml:id="vIII-95" n="III-95" rend="super"/> о<anchor xml:id="vIII-96" n="III-96" rend="super"/> себѣ зрятся.<metamark function="end-page" rend="//"/><pb type="folio" n="л. 120" rend="label-margin-left"/></p>
+         <p>Множаише<anchor xml:id="vIII-97" n="III-97" rend="super"/> же кто и<anchor xml:id="vIII-98" n="III-98" rend="super"/> ина нѣкая обрящет убо безмѣстна въ учительстве вашем крыема, яже не настоящаго времени есть<anchor xml:id="vIII-99" n="III-99" rend="super"/> глаголати, посланию<anchor xml:id="vIII-100" n="III-100" rend="super"/> къ своему <anchor xml:id="vIV-1" n="IV-1" rend="super"/>концу<anchor xml:id="vIV-2" n="IV-2" rend="super"/> тщащуся. Господь въ священных Еуагелиих явьственѣ заповѣдуетъ вѣрующим в Онь: <cit><quote xml:id="biblical-29">«Иже нѣсть со Мною, на Мя есть, и не събирааи со Мною, растачает»</quote></cit>. И паки: <cit><quote xml:id="biblical-30">«Овца Моа Моего гласа слышатъ, чюжему же не послѣдуютъ, ниже бо вѣдят гласа чюжих»</quote></cit>. Яко убо не<anchor xml:id="vIV-3" n="IV-3" rend="super"/> со Христомъ суть, ниже со Онѣм собирают, но растачают иже преданную апостольскую вѣру святыми Вселеньскими седмими<anchor xml:id="vIV-4" n="IV-4" rend="super"/> Соборы, претворяюще и развращающе чюжими приложеньми, явьствено есть и от иных многих крѣпчаиших изъявлении, и<anchor xml:id="vIV-5" n="IV-5" rend="super"/> от них же не ужасаются толики<anchor xml:id="vIV-6" n="IV-6" rend="super"/> священных Соборъ безчислена проклинаниа и анафемы наслѣдовавше<anchor xml:id="vIV-7" n="IV-7" rend="super"/>, аки преступники апостольских учительствъ и презиратели отечьских проповѣдеи и предании. Аще убо желаете и вы со Христомъ быти и собирати съ Онѣм<anchor xml:id="vIV-8" n="IV-8" rend="super"/> богатство истиннаго богословиа и грозных онѣх свободитися проклинании, держи<metamark function="end-page" rend="//"/><pb type="folio" n="л. 120 об." rend="label-margin-left"/> теся неиспытно Господьскаго богословиа и соборных <anchor xml:id="vIV-9a1" n="IV-9" rend="super"/>предани же и поучени<anchor xml:id="vIV-9a2" n="IV-9" rend="super"/>, якоже младенецъ<anchor xml:id="vIV-10" n="IV-10" rend="super"/> беззлобивыи, еуагельскаго сосца нелестным млеком въспитаеми, да же им възрастаеми, доидете в мужа совершена, апостольски рещи, в мѣру возраста исполнениа Христова. Доволенъ вам отвѣтъ тогда будет, наипаче же съглаголникъ вам и похвалитель Христос будетъ, Иже<anchor xml:id="vIV-11" n="IV-11" rend="super"/> речет к вам: <cit><quote xml:id="biblical-31">«Благо ти, рабе <anchor xml:id="vIV-12a1" n="IV-12" rend="super"/>добре и вѣрне<anchor xml:id="vIV-12a2" n="IV-12" rend="super"/>, на малых был<anchor xml:id="vIV-13" n="IV-13" rend="super"/> еси вѣренъ, на многих тебе поставлю, вниди в радость Господа твоего»</quote></cit>.</p>
+      </body>
+      
+      <back> 
+         
+         <listApp type="apparatus-entries" xml:lang="cu-Cyrs"> <!-- note numeriche = varianti -->
+            <listApp>
+               <head rend="super">I-1</head> 
+               <app from="#vI-1">
+                  <rdg wit="#Т #Тр #П">Того же инока Максима Грека Слово</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">2</head> 
+               <app from="#v2">
+                  <rdg wit="#Т #Тр #П">злословиа</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">3-3</head>
+               <app from="#v3a1" to="#v3a2">
+                  <witDetail wit="#Т #Тр #П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">4-4</head>
+               <app from="#v4a1" to="#v4a2">
+                  <witDetail wit="#Т #Тр #П">Доб. <hi rend="distinct">о</hi></witDetail>
+                  <witDetail wit="#Т"><hi rend="distinct">не</hi> испр. из <hi rend="distinct">но</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">5</head> 
+               <app from="#v5">
+                  <rdg wit="#Т #Тр #П">но</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">6</head> 
+               <app from="#v6">
+                  <rdg wit="#Т #Тр">разумѣ</rdg>
+                  <rdg wit="#П">разума</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">7</head> 
+               <app from="#v7">
+                  <rdg wit="#Т #Тр #П">излишни</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">8</head> 
+               <app from="#v8">
+                  <witDetail wit="#П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">9</head> 
+               <app from="#v9">
+                  <witDetail wit="#Тр">Доб. <hi rend="distinct">выи</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">10</head> 
+               <app from="#v10">
+                  <witDetail wit="#Т #Тр">Доб. <hi rend="distinct">пропасти</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">11</head> 
+               <app from="#v11">
+                  <rdg wit="#Т #Тр #П">аки</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">12</head> 
+               <app from="#v12">
+                  <rdg wit="#Т #Тр #П">недовлящеся</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">13</head> 
+               <app from="#v13">
+                  <rdg wit="#П">яко да</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">14</head> 
+               <app from="#v14">
+                  <witDetail wit="#Т #Тр #П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">15-15</head>
+               <app from="#v15a1" to="#v15a2">
+                  <rdg wit="#П">виновныхъ соблазномъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">16</head> 
+               <app from="#v16">
+                  <rdg wit="#Т #Тр #П">ких</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">17</head> 
+               <app from="#v17">
+                  <rdg wit="#Т #Тр #П">ослин</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">18</head> 
+               <app from="#v18">
+                  <rdg wit="#Т #Тр #П">вѣрующих</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">19</head> 
+               <app from="#v19">
+                  <rdg wit="#П">помыслитъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">20</head> 
+               <app from="#v20">
+                  <rdg wit="#Т #Тр #П">о</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">21</head> 
+               <app from="#v21">
+                  <rdg wit="#П">всецѣлую</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">22</head> 
+               <app from="#v22">
+                  <rdg wit="#Тр">сияюще</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">23</head> 
+               <app from="#v23">
+                  <witDetail wit="#Т #Тр #П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">24</head> 
+               <app from="#v24">
+                  <witDetail wit="#Т">Испр. из <hi rend="distinct">отеческое преданное</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">25</head> 
+               <app from="#v25">
+                  <rdg wit="#Т #Тр #П">валаамовы</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">26</head> 
+               <app from="#v26">
+                  <rdg wit="#Т #Тр #П">звѣздъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">27</head> 
+               <app from="#v27">
+                  <rdg wit="#Т #Тр #П">предложеному</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">28</head> 
+               <app from="#v28">
+                  <rdg wit="#Т #Тр">е</rdg>
+                  <rdg wit="#П">ея</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">29</head> 
+               <app from="#v29">
+                  <witDetail wit="#Т">Испр. из <hi rend="distinct">научить</hi></witDetail>
+                  <witDetail wit="#П"><hi rend="distinct">научитъ</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">I</head>
+               <app from="#c5">
+                  <lem wit="#Т #Тр #П">мудръствовати</lem>
+                  <rdg wit="#basic-witness">мудръствова</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">30</head> 
+               <app from="#v30">
+                  <witDetail wit="#Т #Тр #П">Доб. <hi rend="distinct">въ</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">31</head> 
+               <app from="#v31">
+                  <rdg wit="#Т #Тр #П">проповѣдуете</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">32</head> 
+               <app from="#v32">
+                  <rdg wit="#Т #Тр #П">преиначению</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">33</head> 
+               <app from="#v33">
+                  <witDetail wit="#Т #Тр #П">Идроахомом, <hi rend="distinct">глосса</hi> <gloss>Водолѣем</gloss></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">34</head> 
+               <app from="#v34">
+                  <rdg wit="#П">миру</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">35</head> 
+               <app from="#v35">
+                  <rdg wit="#Тр #П">есть</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">36</head> 
+               <app from="#v36">
+                  <rdg wit="#Т #Тр #П">просто</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">37-38</head>
+               <app from="#v37" to="#v38">
+                  <rdg wit="#Т #Тр">вѣдѣт ли</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">39</head> 
+               <app from="#v39">
+                  <rdg wit="#П">исхожения</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">40</head> 
+               <app from="#v40">
+                  <rdg wit="#Тр">юже</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">41</head> 
+               <app from="#v41">
+                  <rdg wit="#Т #Тр #П">и</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">42</head> 
+               <app from="#v42">
+                  <witDetail wit="#Т #Тр #П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">43</head> 
+               <app from="#v43">
+                  <rdg wit="#Т #Тр #П">вас</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">44</head> 
+               <app from="#v44">
+                  <rdg wit="#Т #Тр #П">Содѣтеля</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">45</head> 
+               <app from="#v45">
+                  <witDetail wit="#Т #Тр #П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">46</head> 
+               <app from="#v46">
+                  <witDetail wit="#Т #Тр #П">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">47</head> 
+               <app from="#v47">
+                  <rdg wit="#Т #Тр">преиначению</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">48-48</head>
+               <app from="#v48a1" to="#v48a2">
+                  <witDetail wit="#П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">49</head> 
+               <app from="#v49">
+                  <rdg wit="#Т">пререкша</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">50</head> 
+               <app from="#v50">
+                  <witDetail wit="#Т #Тр #П"><hi rend="distinct">Глосса</hi> <gloss>Водолѣю</gloss></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">51</head> 
+               <app from="#v51">
+                  <rdg wit="#Т">возвѣщателна</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">52</head> 
+               <app from="#v52">
+                  <witDetail wit="#Т #Тр #П"><hi rend="distinct">Глосса</hi> <gloss>Водолѣа</gloss></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">53</head> 
+               <app from="#v53">
+                  <rdg wit="#Т">несмыслена</rdg>
+                  <witDetail wit="#Т"><hi rend="distinct">а</hi> испр. кин. на <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">54</head> 
+               <app from="#v54">
+                  <rdg wit="#Т #Тр #П">завиделъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II</head>
+               <app from="#c16">
+                  <lem wit="#Т #Тр #П">внѣшнею</lem>
+                  <rdg wit="#basic-witness">внешею</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">55</head> 
+               <app from="#v55">
+                  <rdg wit="#Т #Тр">фиею</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">56</head> 
+               <app from="#v56">
+                  <witDetail wit="#Т #Тр #П"><hi rend="distinct">Глосса</hi> <gloss>Аристотель</gloss></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">57</head> 
+               <app from="#v57">
+                  <rdg wit="#Т">ниже</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">58</head> 
+               <app from="#v58">
+                  <rdg wit="#Т">слагати</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">59</head> 
+               <app from="#v59">
+                  <rdg wit="#Тр">от</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III</head>
+               <app from="#c19">
+                  <lem wit="#Т #П">безстрашнѣ</lem>
+                  <rdg wit="#basic-witness">безбезстрашнѣ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">60</head> 
+               <app from="#v60">
+                  <witDetail wit="#Т #П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">61</head> 
+               <app from="#v61">
+                  <rdg wit="#Т #Тр">стужали</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">62</head> 
+               <app from="#v62">
+                  <witDetail wit="#Т">Испр. кин. из <hi rend="distinct">предлажащия</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">63</head> 
+               <app from="#v63">
+                  <rdg wit="#Т #Тр #П">устремляющеся</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">64</head> 
+               <app from="#v64">
+                  <witDetail wit="#Т">Испр. кин. из <hi rend="distinct">претвори</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">65</head> 
+               <app from="#v65">
+                  <rdg wit="#Т #Тр #П">разуму</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">66</head> 
+               <app from="#v66">
+                  <witDetail wit="#Т #Тр #П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">67</head> 
+               <app from="#v67">
+                  <rdg wit="#Т #Тр #П">избирающим</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">68-68</head>
+               <app from="#v68a1" to="#v68a2">
+                  <rdg wit="#Т #Тр">понужатие и</rdg>
+                  <rdg wit="#П">по нужи и</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">69</head> 
+               <app from="#v69">
+                  <witDetail wit="#П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">70</head> 
+               <app from="#v70">
+                  <witDetail wit="#Т">Испр. кин. из <hi rend="distinct">сия</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">71</head> 
+               <app from="#v71">
+                  <witDetail wit="#Т">Испр. кин. из <hi rend="distinct">всѣ</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">72</head> 
+               <app from="#v72">
+                  <rdg wit="#Т #Тр">ражатися</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">73</head> 
+               <app from="#v73">
+                  <witDetail wit="#Т #Тр">Маргиналия кин. <hi rend="distinct">зри учении Макси… внѣшне… философ…</hi> (частично срезана)</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">74</head> 
+               <app from="#v74">
+                  <rdg wit="#Тр">сообщатель</rdg>
+                  <rdg wit="#Т">сообщитель</rdg>
+                  <rdg wit="#П">сообращатель</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">75</head> 
+               <app from="#v75">
+                  <rdg wit="#Т #Тр">языческимъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">76</head> 
+               <app from="#v76">
+                  <witDetail wit="#Т #Тр #П">Доб. <hi rend="distinct">в</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">77</head> 
+               <app from="#v77">
+                  <rdg wit="#Т #Тр">Кобѣзмикъ</rdg>
+                  <rdg wit="#П">бѣ Козмикъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">78</head> 
+               <app from="#v78">
+                  <rdg wit="#Т #Тр">ферариискии</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">IV</head>
+               <app from="#c21">
+                  <lem wit="#Т #Тр #П">ирои</lem>
+                  <rdg wit="#basic-witness">иро</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">79</head> 
+               <app from="#v79">
+                  <rdg wit="#Т #Тр #П">прельстило есть</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">80</head> 
+               <app from="#v80">
+                  <rdg wit="#Тр">учении</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">81</head> 
+               <app from="#v81">
+                  <rdg wit="#П">зазревъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">82</head> 
+               <app from="#v82">
+                  <witDetail wit="#Т #Тр #П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">83</head> 
+               <app from="#v83">
+                  <rdg wit="#Т #Тр">на иныи</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">84</head> 
+               <app from="#v84">
+                  <rdg wit="#Т #Тр #П">дерзающе</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">85</head> 
+               <app from="#v85">
+                  <rdg wit="#Т #Тр #П">верховному</rdg>
+                  <witDetail wit="#Т">Испр. кин. из <hi rend="distinct">верхому</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">86</head> 
+               <app from="#v86">
+                  <witDetail wit="#Т #Тр #П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">87-87</head>
+               <app from="#v87a1" to="#v87a2">
+                  <witDetail wit="#Т">Вписано кин. на поле</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">88</head> 
+               <app from="#v88">
+                  <rdg wit="#Т #Тр #П">такоже</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">89</head> 
+               <app from="#v89">
+                  <rdg wit="#Т #Тр">от</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">90</head> 
+               <app from="#v90">
+                  <rdg wit="#П">спасениа</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">91-91</head>
+               <app from="#v91a1" to="#v91a2">
+                  <rdg wit="#П">клѣнящихъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">92</head> 
+               <app from="#v92">
+                  <witDetail wit="#П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">93</head> 
+               <app from="#v93">
+                  <witDetail wit="#Т #Тр #П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">94</head> 
+               <app from="#v94">
+                  <witDetail wit="#Т">Испр. из <hi rend="distinct">съкрушати</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">95</head> 
+               <app from="#v95">
+                  <witDetail wit="#Т"><hi rend="distinct">о</hi> испр. из <hi rend="distinct">от</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">96</head> 
+               <app from="#v96">
+                  <witDetail wit="#Т #Тр #П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">97</head> 
+               <app from="#v97">
+                  <rdg wit="#Т #Тр #П">рекъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">98</head> 
+               <app from="#v98">
+                  <witDetail wit="#Т #Тр #П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">99</head> 
+               <app from="#v99">
+                  <rdg wit="#П">постиже</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">100</head> 
+               <app from="#v100">
+                  <rdg wit="#Т #Тр">Силиверстра</rdg>
+                  <witDetail wit="#Т">Испр. из <hi rend="distinct">Сильверста</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-1</head> 
+               <app from="#vII-1">
+                  <rdg wit="#Т #Тр #П">тая</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-2</head> 
+               <app from="#vII-2">
+                  <rdg wit="#Т">нихъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-3</head> 
+               <app from="#vII-3">
+                  <rdg wit="#Т">восточнымы</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-4</head> 
+               <app from="#vII-4">
+                  <rdg wit="#Т #Тр #П">другъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-5</head> 
+               <app from="#vII-5">
+                  <rdg wit="#П">церкви</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-6-II-6</head>
+               <app from="#vII-6a1" to="#vII-6a2">
+                  <rdg wit="#Т #Тр #П">совершашеся</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-7</head> 
+               <app from="#vII-7">
+                  <rdg wit="#Т #Тр">Василеи</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-8</head> 
+               <app from="#vII-8">
+                  <rdg wit="#Т">Иваннъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-9</head> 
+               <app from="#vII-9">
+                  <rdg wit="#Т #Тр #П">противъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-10</head> 
+               <app from="#vII-10">
+                  <rdg wit="#П">облекшеся</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-11</head> 
+               <app from="#vII-11">
+                  <witDetail wit="#Т #Тр #П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-12-II-12</head>
+               <app from="#vII-12a1" to="#vII-12a2">
+                  <rdg wit="#П">противо сея хулы</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-13</head> 
+               <app from="#vII-13">
+                  <rdg wit="#Т #Тр #П">анафема</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-14-II-14</head>
+               <app from="#vII-14a1" to="#vII-14a2">
+                  <witDetail wit="#Т #Тр #П">Нет</witDetail>
+                  <witDetail wit="#Т">На поле маргиналия <hi rend="distinct">зри</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-15</head> 
+               <app from="#vII-15">
+                  <rdg wit="#Т #Тр #П">Дѣвая</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-16-II-16</head>
+               <app from="#vII-16a1" to="#vII-16a2">
+                  <witDetail wit="#Тр">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-17-II-17</head>
+               <app from="#vII-17a1" to="#vII-17a2">
+                  <witDetail wit="#Т">Вписано на поле кин.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-18</head> 
+               <app from="#vII-18">
+                  <witDetail wit="#Т #Тр #П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-19</head> 
+               <app from="#vII-19">
+                  <witDetail wit="#Тр">Доб. <hi rend="distinct">ихъ преже блажены</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-20</head> 
+               <app from="#vII-20">
+                  <rdg wit="#Т">мечаху</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-21</head> 
+               <app from="#vII-21">
+                  <witDetail wit="#Т #Тр #П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-22</head> 
+               <app from="#vII-22">
+                  <rdg wit="#Т #Тр #П">фарисѣовь</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-23</head> 
+               <app from="#vII-23">
+                  <rdg wit="#Т #Тр #П">празновати</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-24</head> 
+               <app from="#vII-24">
+                  <rdg wit="#Т #Тр #П">преступльшимъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-25</head> 
+               <app from="#vII-25">
+                  <witDetail wit="#Т #Тр #П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-26-II-26</head>
+               <app from="#vII-26a1" to="#vII-26a2">
+                  <rdg wit="#Т #Тр #П">ваше и ложное</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-27-II-27</head>
+               <app from="#vII-27a1" to="#vII-27a2">
+                  <rdg wit="#Т #Тр #П">сущее</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-28</head> 
+               <app from="#vII-28">
+                  <witDetail wit="#Т #Тр #П">Доб. <hi rend="distinct">есть</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-29</head> 
+               <app from="#vII-29">
+                  <rdg wit="#П">вѣдуще</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-30</head> 
+               <app from="#vII-30">
+                  <rdg wit="#Т #Тр #П">смѣяти</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-31</head> 
+               <app from="#vII-31">
+                  <witDetail wit="#П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-32</head> 
+               <app from="#vII-32">
+                  <rdg wit="#Т #Тр">Егда</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-33</head> 
+               <app from="#vII-33">
+                  <witDetail wit="#Т #Тр #П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-34</head> 
+               <app from="#vII-34">
+                  <rdg wit="#П">землю</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-35</head> 
+               <app from="#vII-35">
+                  <rdg wit="#Т">преидеидетъ</rdg>
+                  <witDetail wit="#Тр">Испр. из <hi rend="distinct">преидеидетъ</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-36</head> 
+               <app from="#vII-36">
+                  <witDetail wit="#Т #Тр #П">Доб. <hi rend="distinct">в</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-37</head> 
+               <app from="#vII-37">
+                  <rdg wit="#Т #Тр #П">и да</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-38</head> 
+               <app from="#vII-38">
+                  <rdg wit="#Т #П">увѣщеваемъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-39</head> 
+               <app from="#vII-39">
+                  <witDetail wit="#Тр">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-40</head> 
+               <app from="#vII-40">
+                  <witDetail wit="#Т #Тр #П">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-41-II-41</head>
+               <app from="#vII-41a1" to="#vII-41a2">
+                  <rdg wit="#П">И сие съ Богом сотворихъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-42</head> 
+               <app from="#vII-42">
+                  <rdg wit="#Т #П">зодѣемъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-43</head> 
+               <app from="#vII-43">
+                  <witDetail wit="#П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-44</head> 
+               <app from="#vII-44">
+                  <witDetail wit="#Т">Испр. кин. из <hi rend="distinct">промышляете</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-45</head> 
+               <app from="#vII-45">
+                  <rdg wit="#Тр">же</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-46</head> 
+               <app from="#vII-46">
+                  <rdg wit="#Т #Тр">падата</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-47</head> 
+               <app from="#vII-47">
+                  <witDetail wit="#Т #Тр">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-48-II-48</head>
+               <app from="#vII-48a1" to="#vII-48a2">
+                  <rdg wit="#Т #Тр #П">содержащу Богу сих и соблюдающу</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-49</head> 
+               <app from="#vII-49">
+                  <witDetail wit="#Т">Испр. кин. из <hi rend="distinct">астроломическому</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-50</head> 
+               <app from="#vII-50">
+                  <witDetail wit="#Т">Испр. кин. из <hi rend="distinct">видѣние</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-51</head> 
+               <app from="#vII-51">
+                  <witDetail wit="#Т #Тр">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-52-II-52</head>
+               <app from="#vII-52a1" to="#vII-52a2">
+                  <rdg wit="#Т #Тр">такомъ си</rdg>
+                  <rdg wit="#П">такимъ сим</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-53</head> 
+               <app from="#vII-53">
+                  <rdg wit="#Т #Тр">лстящихся</rdg>
+                  <rdg wit="#П">и лстящихъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-54</head> 
+               <app from="#vII-54">
+                  <rdg wit="#П">была</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-55</head> 
+               <app from="#vII-55">
+                  <rdg wit="#Т #Тр #П">манием</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-56-II-56</head>
+               <app from="#vII-56a1" to="#vII-56a2">
+                  <rdg wit="#Т #Тр #П">наводя погублениа</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-57</head> 
+               <app from="#vII-57">
+                  <rdg wit="#Т #Тр #П">манием</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-58</head> 
+               <app from="#vII-58">
+                  <rdg wit="#Т #Тр #П">случятися</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-59</head> 
+               <app from="#vII-59">
+                  <rdg wit="#Т #Тр">списани</rdg>
+                  <rdg wit="#П">списании</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-60</head> 
+               <app from="#vII-60">
+                  <rdg wit="#Т">клятися</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-61</head> 
+               <app from="#vII-61">
+                  <rdg wit="#Т">о</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-62</head> 
+               <app from="#vII-62">
+                  <rdg wit="#Т #П">доволнѣ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-63</head> 
+               <app from="#vII-63">
+                  <rdg wit="#Т #П">лесть</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-64</head> 
+               <app from="#vII-64">
+                  <rdg wit="#П">велерѣчити</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-65-II-65</head>
+               <app from="#vII-65a1" to="#vII-65a2">
+                  <rdg wit="#П">малѣишыя оны</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-66</head> 
+               <app from="#vII-66">
+                  <witDetail wit="#П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-67</head> 
+               <app from="#vII-67">
+                  <rdg wit="#П">покарящеся</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-68</head> 
+               <app from="#vII-68">
+                  <rdg wit="#Т #П">льсти</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-69</head> 
+               <app from="#vII-69">
+                  <witDetail wit="#Т #Тр #П">Доб. <hi rend="distinct">сиа</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-70</head> 
+               <app from="#vII-70">
+                  <rdg wit="#П">от</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-71</head> 
+               <app from="#vII-71">
+                  <witDetail wit="#Т #Тр #П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-72</head> 
+               <app from="#vII-72">
+                  <witDetail wit="#Т #Тр #П">Доб. <hi rend="distinct">мы же Моисеовы ученицы есмы</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-73</head> 
+               <app from="#vII-73">
+                  <witDetail wit="#П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-74</head> 
+               <app from="#vII-74">
+                  <rdg wit="#Т">буду</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-75</head> 
+               <app from="#vII-75">
+                  <rdg wit="#П">законопреступницы</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-76</head> 
+               <app from="#vII-76">
+                  <rdg wit="#Т #П">обѣщаниихъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-77</head> 
+               <app from="#vII-77">
+                  <witDetail wit="#П">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-78</head> 
+               <app from="#vII-78">
+                  <witDetail wit="#Т #Тр #П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-79</head> 
+               <app from="#vII-79">
+                  <rdg wit="#П">многими</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-80</head> 
+               <app from="#vII-80">
+                  <rdg wit="#П">ему</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-81</head> 
+               <app from="#vII-81">
+                  <rdg wit="#Т #П">непреложное</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-82</head> 
+               <app from="#vII-82">
+                  <rdg wit="#П">являтъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-83</head> 
+               <app from="#vII-83">
+                  <rdg wit="#Т">твареи</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-84</head> 
+               <app from="#vII-84">
+                  <rdg wit="#Т">сказнитъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-85</head> 
+               <app from="#vII-85">
+                  <rdg wit="#Т #Тр #П">велѣнием</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-86</head> 
+               <app from="#vII-86">
+                  <rdg wit="#П">сие</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-87</head> 
+               <app from="#vII-87">
+                  <witDetail wit="#П">Написано дважды</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-88</head> 
+               <app from="#vII-88">
+                  <rdg wit="#Т #Тр #П">житеиские</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-89</head> 
+               <app from="#vII-89">
+                  <rdg wit="#Т #Тр #П">непокорения</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-90</head> 
+               <app from="#vII-90">
+                  <rdg wit="#Т #Тр #П">же</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-91</head> 
+               <app from="#vII-91">
+                  <rdg wit="#Т #Тр #П">фараонъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-92</head> 
+               <app from="#vII-92">
+                  <rdg wit="#П">краинѣе</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-93</head> 
+               <app from="#vII-93">
+                  <rdg wit="#П">земли и</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-94</head> 
+               <app from="#vII-94">
+                  <rdg wit="#П">скажу</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-95-II-95</head>
+               <app from="#vII-95a1" to="#vII-95a2">
+                  <rdg wit="#Т #Тр #П">алманоково суесловие еже о потопе яко</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-96</head> 
+               <app from="#vII-96">
+                  <witDetail wit="#Т">Испр. кин. из <hi rend="distinct">не</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-97</head> 
+               <app from="#vII-97">
+                  <rdg wit="#П">исполнена</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-98</head> 
+               <app from="#vII-98">
+                  <rdg wit="#Т #Тр #П">убо</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-99</head> 
+               <app from="#vII-99">
+                  <witDetail wit="#Т #Тр #П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">II-100</head> 
+               <app from="#vII-100">
+                  <rdg wit="#Т">бывше</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-1</head> 
+               <app from="#vIII-1">
+                  <rdg wit="#П">в Писании</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-2</head> 
+               <app from="#vIII-2">
+                  <rdg wit="#П">обдержитъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-3</head> 
+               <app from="#vIII-3">
+                  <rdg wit="#П">радити</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-4</head> 
+               <app from="#vIII-4">
+                  <witDetail wit="#П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-5-III-5</head>
+               <app from="#vIII-5a1" to="#vIII-5a2">
+                  <rdg wit="#Т #Тр">никто же нашее от них овести</rdg>
+                  <witDetail wit="#Т">(испр. кин. из <hi rend="distinct">ни</hi>)</witDetail>
+                  <rdg wit="#П">насъ от нихъ отвести можетъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-6</head> 
+               <app from="#vIII-6">
+                  <witDetail wit="#Т">Испр. кин. из <hi rend="distinct">ни</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-7</head> 
+               <app from="#vIII-7">
+                  <witDetail wit="#Т #Тр #П">Доб. <hi rend="distinct">Бог</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-8</head> 
+               <app from="#vIII-8">
+                  <witDetail wit="#Т #Тр #П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-9</head> 
+               <app from="#vIII-9">
+                  <witDetail wit="#Т"><hi rend="distinct">недостоина</hi> испр. кин. из <hi rend="distinct">недостоинѣ</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-10</head> 
+               <app from="#vIII-10">
+                  <rdg wit="#Т">от</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-11</head> 
+               <app from="#vIII-11">
+                  <rdg wit="#П">чесо</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-12</head> 
+               <app from="#vIII-12">
+                  <rdg wit="#Т #Тр #П">осудил</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-13</head> 
+               <app from="#vIII-13">
+                  <rdg wit="#Т #Тр #П">земли</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-14-III-14</head>
+               <app from="#vIII-14a1" to="#vIII-14a2">
+                  <rdg wit="#П">почто</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-15</head> 
+               <app from="#vIII-15">
+                  <rdg wit="#Т #Тр">преизлиемъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-16-III-16</head>
+               <app from="#vIII-16a1" to="#vIII-16a2">
+                  <rdg wit="#Т #Тр #П">множаиша была</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-17</head> 
+               <app from="#vIII-17">
+                  <witDetail wit="#Т">Испр. кин. из <hi rend="distinct">звѣздочестная</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-18</head> 
+               <app from="#vIII-18">
+                  <rdg wit="#Т #П">Иосиф</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-19</head> 
+               <app from="#vIII-19">
+                  <witDetail wit="#Т #Тр #П">Доб. <hi rend="distinct">же</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-20</head> 
+               <app from="#vIII-20">
+                  <witDetail wit="#Т #Тр #П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-21</head> 
+               <app from="#vIII-21">
+                  <rdg wit="#Т #Тр #П">планитческим</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-22</head> 
+               <app from="#vIII-22">
+                  <rdg wit="#Т #Тр #П">стекшимся</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-23</head> 
+               <app from="#vIII-23">
+                  <witDetail wit="#П">Доб. <hi rend="distinct">рече</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-24</head> 
+               <app from="#vIII-24">
+                  <witDetail wit="#Т">Испр. кин. из <hi rend="distinct">мо</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-25</head> 
+               <app from="#vIII-25">
+                  <rdg wit="#П">разверзаетъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-26</head> 
+               <app from="#vIII-26">
+                  <rdg wit="#Т">бедныа</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-27</head> 
+               <app from="#vIII-27">
+                  <witDetail wit="#Т #Тр #П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-28</head> 
+               <app from="#vIII-28">
+                  <witDetail wit="#Т">Испр. кин. из <hi rend="distinct">сицевъ</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-29</head> 
+               <app from="#vIII-29">
+                  <rdg wit="#Т">водитъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-30</head> 
+               <app from="#vIII-30">
+                  <rdg wit="#Т #Тр #П">глаголющаго</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-31</head> 
+               <app from="#vIII-31">
+                  <witDetail wit="#Т">Маргиналия кин. <hi rend="distinct">зри</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-32</head> 
+               <app from="#vIII-32">
+                  <witDetail wit="#Тр">Доб. <hi rend="distinct">же</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-33</head> 
+               <app from="#vIII-33">
+                  <witDetail wit="#Т #Тр #П">Доб. <hi rend="distinct">Ми</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-34</head> 
+               <app from="#vIII-34">
+                  <rdg wit="#Т">инымъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-35</head> 
+               <app from="#vIII-35">
+                  <witDetail wit="#Т #Тр #П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-36</head> 
+               <app from="#vIII-36">
+                  <rdg wit="#Т">утворяет</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-37-III-37</head>
+               <app from="#vIII-37a1" to="#vIII-37a2">
+                  <rdg wit="#П">яже</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-38</head> 
+               <app from="#vIII-38">
+                  <rdg wit="#Тр">сотворилъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-39</head> 
+               <app from="#vIII-39">
+                  <rdg wit="#Т #Тр #П">человѣкъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">V</head>
+               <app from="#c30">
+                  <lem wit="#Т #Тр #П">халдеискими</lem>
+                  <rdg wit="#basic-witness">халдаискими</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-40</head> 
+               <app from="#vIII-40">
+                  <rdg wit="#Т #Тр #П">халдѣискими</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-41</head> 
+               <app from="#vIII-41">
+                  <witDetail wit="#">Испр. кин. из <hi rend="distinct">оноя</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-42</head> 
+               <app from="#vIII-42">
+                  <rdg wit="#Т">тому</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-43</head> 
+               <app from="#vIII-43">
+                  <rdg wit="#Т #Тр #П">сицеваго</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-44-III-44</head>
+               <app from="#vIII-44a1" to="#vIII-44a2">
+                  <rdg wit="#Т #Тр #П">послѣдовася</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-45</head> 
+               <app from="#vIII-45">
+                  <rdg wit="#Т">утворяа</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-46-III-46</head>
+               <app from="#vIII-46a1" to="#vIII-46a2">
+                  <witDetail wit="#Т">Вписано кин. на поле</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-47</head> 
+               <app from="#vIII-47">
+                  <rdg wit="#Т #Тр #П">твердѣе</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-48</head> 
+               <app from="#vIII-48">
+                  <witDetail wit="#Т #Тр">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-49</head> 
+               <app from="#vIII-49">
+                  <rdg wit="#Тр">нѣкоего</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-50</head> 
+               <app from="#vIII-50">
+                  <rdg wit="#Т #Тр #П">таковаго</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-51</head> 
+               <app from="#vIII-51">
+                  <rdg wit="#Т #П">слышасте</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-52</head> 
+               <app from="#vIII-52">
+                  <rdg wit="#П">сии</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-53</head> 
+               <app from="#vIII-53">
+                  <rdg wit="#П">Егда</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-54</head> 
+               <app from="#vIII-54">
+                  <rdg wit="#Т #Тр #П">уразумѣсте</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-55-III-55</head>
+               <app from="#vIII-55a1" to="#vIII-55a2">
+                  <rdg wit="#П">обѣтование</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-56-III-56</head>
+               <app from="#vIII-56a1" to="#vIII-56a2">
+                  <rdg wit="#Т #Тр">своиствене еже</rdg>
+                  <rdg wit="#П">своиственнѣе же</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-57</head> 
+               <app from="#vIII-57">
+                  <rdg wit="#Т #Тр #П">послуховательнѣ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-58</head> 
+               <app from="#vIII-58">
+                  <witDetail wit="#Т #Тр #П">Доб. <hi rend="distinct">глаголя</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-59</head> 
+               <app from="#vIII-59">
+                  <witDetail wit="#Т">Испр. кин. из <hi rend="distinct">ключим</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-60</head> 
+               <app from="#vIII-60">
+                  <rdg wit="#Т">апостоль</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-61</head> 
+               <app from="#vIII-61">
+                  <rdg wit="#Т #П">преданиихъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-62</head> 
+               <app from="#vIII-62">
+                  <rdg wit="#Т #П">проповѣдуем</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-63</head> 
+               <app from="#vIII-63">
+                  <rdg wit="#Т #Тр #П">о</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-64</head> 
+               <app from="#vIII-64">
+                  <rdg wit="#П">видится</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-65</head> 
+               <app from="#vIII-65">
+                  <rdg wit="#Т #П">толковании</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-66</head> 
+               <app from="#vIII-66">
+                  <rdg wit="#П">противляюще</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-67</head> 
+               <app from="#vIII-67">
+                  <rdg wit="#Тр">созидаются</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-68</head> 
+               <app from="#vIII-68">
+                  <rdg wit="#Т #Тр #П">просвѣщениа</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-69</head> 
+               <app from="#vIII-69">
+                  <rdg wit="#Т #Тр #П">злоименнаго</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-70</head> 
+               <app from="#vIII-70">
+                  <rdg wit="#П">прилѣпляющемуся</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-71</head> 
+               <app from="#vIII-71">
+                  <rdg wit="#Т #Тр #П">вѣрнѣ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-72</head> 
+               <app from="#vIII-72">
+                  <witDetail wit="#">Испр. кин. из <hi rend="distinct">уразумѣ</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-73</head> 
+               <app from="#vIII-73">
+                  <rdg wit="#П">непостижимая</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">VI</head>
+               <app from="#cII-3">
+                  <lem wit="#Т #П">нѣкая</lem>
+                  <rdg wit="#basic-witness">некам</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-74</head> 
+               <app from="#vIII-74">
+                  <rdg wit="#Т #Тр #П">от</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-75</head> 
+               <app from="#vIII-75">
+                  <rdg wit="#П">сѣхъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">VII</head>
+               <app from="#cII-4">
+                  <lem wit="#Т #Тр #П">немощь</lem>
+                  <rdg wit="#basic-witness">не</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-76</head> 
+               <app from="#vIII-76">
+                  <witDetail wit="#П">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-77</head> 
+               <app from="#vIII-77">
+                  <witDetail wit="#Т #Тр #П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-78</head> 
+               <app from="#vIII-78">
+                  <rdg wit="#П">господинъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-79</head> 
+               <app from="#vIII-79">
+                  <witDetail wit="#П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-80</head> 
+               <app from="#vIII-80">
+                  <rdg wit="#Тр">си</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-81</head> 
+               <app from="#vIII-81">
+                  <rdg wit="#Т #Тр">рекши</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-82</head> 
+               <app from="#vIII-82">
+                  <rdg wit="#П">от</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-83</head> 
+               <app from="#vIII-83">
+                  <rdg wit="#П">яже</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-84</head> 
+               <app from="#vIII-84">
+                  <rdg wit="#Т">вревающеи</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-85</head> 
+               <app from="#vIII-85">
+                  <witDetail wit="#Т #Тр #П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-86-III-86</head>
+               <app from="#vIII-86a1" to="#vIII-86a2">
+                  <witDetail wit="#Т">Написано дважды, первое зач. кин.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-87</head> 
+               <app from="#vIII-87">
+                  <witDetail wit="#Т">Написано дважды, первое зач. кин.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-88</head> 
+               <app from="#vIII-88">
+                  <witDetail wit="#Тр">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-89-III-89</head>
+               <app from="#vIII-89a1" to="#vIII-89a2">
+                  <witDetail wit="#Т">Вписано на поле кин.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-90</head> 
+               <app from="#vIII-90">
+                  <rdg wit="#П">совокупляти</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-91</head> 
+               <app from="#vIII-91">
+                  <rdg wit="#Т #Тр">хулениа</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">VIII</head>
+               <app from="#cII-5">
+                  <lem wit="#Т #Тр #П">мнѣние</lem>
+                  <rdg wit="#basic-witness">имения</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-92</head> 
+               <app from="#vIII-92">
+                  <witDetail wit="#Т"><hi rend="distinct">падоеть</hi> испр. кин. из <hi rend="distinct">подаеть</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-93-III-93</head>
+               <app from="#vIII-93a1" to="#vIII-93a2">
+                  <rdg wit="#Т #Тр #П">ипостаси совокупитися</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-94</head> 
+               <app from="#vIII-94">
+                  <rdg wit="#П">и по ипостаси</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-95</head> 
+               <app from="#vIII-95">
+                  <rdg wit="#Т #Тр #П">смѣшении</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-96</head> 
+               <app from="#vIII-96">
+                  <rdg wit="#Т #Тр">от</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-97</head> 
+               <app from="#vIII-97">
+                  <rdg wit="#Т #Тр #П">Множаиша</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-98</head> 
+               <app from="#vIII-98">
+                  <witDetail wit="#Т #Тр #П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-99</head> 
+               <app from="#vIII-99">
+                  <rdg wit="#Т #Тр">его</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">III-100</head> 
+               <app from="#vIII-100">
+                  <rdg wit="#П">послание</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">IV-1</head> 
+               <app from="#vIV-1">
+                  <witDetail wit="#Т">Испр. кин. из <hi rend="distinct">воему</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">IV-2</head> 
+               <app from="#vIV-2">
+                  <witDetail wit="#Т">В строке зачеркнуто кин., вписано на поле кин.</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">IV-3</head> 
+               <app from="#vIV-3">
+                  <witDetail wit="#Т">Вписано кин. над строкой и на поле</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">IV-4</head> 
+               <app from="#vIV-4">
+                  <rdg wit="#П #Т #Тр">седми</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">IV-5</head> 
+               <app from="#vIV-5">
+                  <witDetail wit="#П">Нет</witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">IV-6</head> 
+               <app from="#vIV-6">
+                  <rdg wit="#Т #Тр #П">толикихъ</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">IV-7</head> 
+               <app from="#vIV-7">
+                  <rdg wit="#Тр">послѣдоваше</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">IV-8</head> 
+               <app from="#vIV-8">
+                  <witDetail wit="#Тр">Доб. <hi rend="distinct">глаголавшим</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">IV-9-IV-9</head>
+               <app from="#vIV-9a1" to="#vIV-9a2">
+                  <rdg wit="#Т #Тр #П">преданеи же и поучении</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">IV-10</head> 
+               <app from="#vIV-10">
+                  <rdg wit="#Т">младенця</rdg>
+                  <rdg wit="#П">младенцы</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">IV-11</head> 
+               <app from="#vIV-11">
+                  <witDetail wit="#Т #Тр #П">Доб. <hi rend="distinct">и</hi></witDetail>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">IV-12-IV-12</head>
+               <app from="#vIV-12a1" to="#vIV-12a2">
+                  <rdg wit="#Т #Тр #П">добрыи и вѣрныи</rdg>
+               </app>
+            </listApp>
+            <listApp>
+               <head rend="super">IV-13</head> 
+               <app from="#vIV-13">
+                  <rdg wit="#Т #Тр #П">бо</rdg>
+               </app>
+            </listApp>
+         </listApp>
+         
+         <noteGrp type="editorial-note" xml:lang="cu-Cyrs"> <!-- note alfabetiche = commenti al testo-->
+            <note corresp="#cI-1"> <!-- riferimento all'id sul testo - c1 è commento1 -->
+               <term rend="super">I-а</term> <!-- lettera in apice -->
+               <!-- 
+               cambiare term con label
+               in note -> target invece di corresp
+               DA
+               <note> 
+               <span from="#c15a1" to="#c15a2" rend="super">п-п</span>
+               <p>В ркп. написано дважды.</p>
+            </note>
+            A
+            <note target="#c14a1" targetEnd="#c14a2">
+               <label rend="super">о-о</label>
+               <p>Вписано на поле основным почерком со знаком вставки</p>
+            </note>
+               
+               -->
+               <p>На верхних полях л. 106 об.–120 помета: <hi rend="distinct">Слово Максимово 1</hi>.</p>
+            </note>
+            <note target="#c2">
+               <label rend="super">б</label>
+               <p><hi rend="distinct">не</hi> вписано над строкой другими чернилами.</p>
+            </note>
+            <note target="#c3">
+               <label rend="super">в</label>
+               <p>Вписано над строкой другими чернилами.</p>
+            </note>
+            <note target="#c4">
+               <label rend="super">г</label>
+               <p>Вписано на поле другими чернилами.</p>
+            </note>
+            <note target="#c5">
+               <label rend="super">д</label>
+               <p>В ркп. <hi rend="distinct">мудръствова</hi>, испр. по Т Тр П.</p>
+            </note>
+            <note target="#c6">
+               <label rend="super">е</label>
+               <p><hi rend="distinct">ае</hi> вписано в строку вместо стертых 3–4 букв.</p>
+            </note>
+            <note target="#c7">
+               <label rend="super">ж</label>
+               <p>Буква <hi rend="distinct">а</hi> вписана над строкой другими чернилами.</p>
+            </note>
+            <note target="#c8">
+               <label rend="super">з</label>
+               <p>Далее зач. <hi rend="distinct">и</hi>.</p>
+            </note>
+            <note target="#c9">
+               <label rend="super">и</label>
+               <p>Буква <hi rend="distinct">а</hi> испр. из у основным (?) почерком.</p>
+            </note>
+            <note target="#c10">
+               <label rend="super">к</label>
+               <p>Конечная буква <hi rend="distinct">х</hi> вписана над строкой другими чернилами.</p>
+            </note>
+            <note target="#c11">
+               <label rend="super">л</label>
+               <p>Буква <hi rend="distinct">е</hi> вписана в строку по стертому другими чернилами.</p>
+            </note>
+            <note target="#c12">
+               <label rend="super">м</label>
+               <p>Вписано в строку по стертому другими чернилами.</p>
+            </note>
+            <note target="#c13">
+               <label rend="super">н</label>
+               <p>Конечная буква <hi rend="distinct">е</hi> вписана над строкой другими чернилами.</p>
+            </note>
+            <note target="#c14">
+               <label rend="super">о</label>
+               <p><hi rend="distinct">же</hi> вписано в строку другими чернилами вместо стертой <hi rend="distinct">д</hi>.</p>
+            </note>
+            <note target="#c15a1" targetEnd="#c15a2"> 
+               <label  rend="super">п-п</label>
+               <p>В ркп. написано дважды.</p>
+            </note>
+            <note target="#c16">
+               <term rend="super">р</term>
+               <p>В ркп. <hi rend="distinct">внешею</hi>, испр. по Т Тр П.</p>
+            </note>
+            <note target="#c17">
+               <term rend="super">с</term>
+               <p>Первая буква <hi rend="distinct">т</hi> вписана в строку по стертому другими чернилами, буква <hi rend="distinct">а</hi> пропущена.</p>
+            </note>
+            <note target="#c18">
+               <label rend="super">т</label>
+               <p>Первая буква <hi rend="distinct">е</hi> вписана в строку по стертому другими чернилами.</p>
+            </note>
+            <note target="#c19">
+               <label rend="super">у</label>
+               <p>В ркп. <hi rend="distinct">без</hi> написано дважды, испр. по Т П.</p>
+            </note>
+            <note target="#c20">
+               <label rend="super">ф</label>
+               <p>Буква <hi rend="distinct">ь</hi> вписана над строкой другими чернилами.</p>
+            </note>
+            <note target="#c21">
+               <label rend="super">х</label>
+               <p>В ркп. <hi rend="distinct">иро</hi>, далее оставлено место для 1–2 букв, доб. по Т Тр П</p>
+            </note>
+            <note target="#c22">
+               <label rend="super">ц</label>
+               <p>Буква <hi rend="distinct">т</hi> вписана в строку по стертому другими чернилами.</p>
+            </note>
+            <note target="#c23">
+               <label rend="super">ч</label>
+               <p>Буква <hi rend="distinct">л</hi> вписана над строкой другими чернилами.</p>
+            </note>
+            <note target="#c24">
+               <label rend="super">ш</label>
+               <p>Вписано в строке по стертому другими чернилами.</p>
+            </note>
+            <note target="#c25">
+               <label rend="super">щ</label>
+               <p>Буква <hi rend="distinct">и</hi> вписана в строку другими чернилами.</p>
+            </note>
+            <note target="#c26">
+               <label rend="super">ы</label>
+               <p>Вписано в строку по стертому (?) другими чернилами.</p>
+            </note>
+            <note target="#c27">
+               <label rend="super">ь</label>
+               <p><hi rend="distinct">ести</hi> вписано в строку другими чернилами.</p>
+            </note>
+            <note target="#c28">
+               <label rend="super">ъ</label>
+               <p>Вписано в строку другими чернилами.</p>
+            </note>
+            <note target="#c29">
+               <label rend="super">э</label>
+               <p>Буква <hi rend="distinct">и</hi> вписана над строкой другими чернилами.</p>
+            </note>
+            <note target="#c30">
+               <label rend="super">ю</label>
+               <p>В ркп. <hi rend="distinct">халдаискими</hi>, испр. по Т Тр П.</p>
+            </note>
+            <note target="#c31">
+               <label rend="super">я</label>
+               <p>Вписано над строкой другими чернилами.</p>
+            </note>
+            <note target="#cII-1">
+               <label rend="super">II-а</label>
+               <p>Буква <hi rend="distinct">е</hi> вписана в строку по стертому другими чернилами.</p>
+            </note>
+            <note target="#cII-2">
+               <label rend="super">II-б</label>
+               <p>Буква <hi rend="distinct">я</hi> вписана в строку по стертому другими чернилами.</p>
+            </note>
+            <note target="#cII-3">
+               <label rend="super">II-в</label>
+               <p>В ркп. <hi rend="distinct">некам</hi>, испр. по Т П.</p>
+            </note>
+            <note target="#cII-4">
+               <label rend="super">II-г</label>
+               <p>В ркп. <hi rend="distinct">не</hi>, испр. по Т Тр П.</p>
+            </note>
+            <note target="#cII-5">
+               <label rend="super">II-д</label>
+               <p>В ркп. <hi rend="distinct">имения</hi>, испр. по Т Тр П.</p>
+            </note>
+         </noteGrp>
+         
+         <listBibl type="biblical-cit"> 
+            <bibl corresp="#biblical-1" type="Mt"><ref>(Мф 18, 6 / Mt 18,6)</ref></bibl>
+            <bibl corresp="#biblical-2" type="Gal"><ref>(Гал 3, 1 / Gal 3,1)</ref></bibl>
+            <bibl corresp="#biblical-3" type="Col"><ref>(Кол 2, 8 / Col 2,8)</ref></bibl>
+            <bibl corresp="#biblical-4" type="2Cor"><ref>(2 Кор 10, 5 / 2Cor 10,5)</ref></bibl>
+            <bibl corresp="#biblical-5" type="Mt"><ref>(Мф 5, 19 / Mt 5,19)</ref></bibl>
+            <bibl corresp="#biblical-6" type="Mc"><ref>(Мк 9, 50 / Mc 9,50)</ref></bibl>
+            <bibl corresp="#biblical-7" type="1Cor"><ref>(1 Кор 5, 7 / 1Cor 5,7)</ref></bibl>
+            <bibl corresp="#biblical-8" type="1Cor"><ref>(1 Кор 5, 8 / 1Cor 5,8)</ref></bibl>
+            <bibl corresp="#biblical-9" type="Lc"><ref>(Лк 12, 1 / Lc 12,1)</ref></bibl>
+            <bibl corresp="#biblical-10" type="Mt"><ref>(Мф 22, 29 / Mt 22,29)</ref></bibl>
+            <bibl corresp="#biblical-11" type="Gen"><ref>(Быт 9, 11-17 / Gen 9,11-17)</ref></bibl>
+            <bibl corresp="#biblical-12" type="Eb"><ref>(Евр 6, 18 / Eb 6,18)</ref></bibl>
+            <bibl corresp="#biblical-13" type="Mt"><ref>(Мф 24, 35 / Mt 24,35)</ref></bibl>
+            <bibl corresp="#biblical-14" type="Lc"><ref>(Лк 12, 6-7 / Lc 12,6-7)</ref></bibl>
+            <bibl corresp="#biblical-15" type="Gv"><ref>(Ин 9, 28 / Gv 9,28)</ref></bibl>
+            <bibl corresp="#biblical-16" type="Sal"><ref>(Пс 118, 85 / Sal 118,85)</ref></bibl>
+            <bibl corresp="#biblical-17" type="Sal"><ref>(Пс 118, 21 / Sal 118,21)</ref></bibl>
+            <bibl corresp="#biblical-18" type="Eb"><ref>(Евр 1, 3 / Eb 1,3)</ref></bibl>
+            <bibl corresp="#biblical-19" type="Gen"><ref>(Быт 6, 11 / Gen 6,11)</ref></bibl>
+            <bibl corresp="#biblical-20" type="Gen"><ref>(Быт 6, 12 / Gen 6,12)</ref></bibl>
+            <bibl corresp="#biblical-21" type="Gen"><ref>(Быт 6, 13 / Gen 6,13)</ref></bibl>
+            <bibl corresp="#biblical-22" type="Gen"><ref>(Быт 6, 17 / Gen 6,17)</ref></bibl>
+            <bibl corresp="#biblical-23" type="Gen"><ref>(Быт 7, 11 / Gen 7,11)</ref></bibl>
+            <bibl corresp="#biblical-24" type="Gen"><ref>(Быт 8, 21 / Gen 8,21)</ref></bibl>
+            <bibl corresp="#biblical-25" type="Gen"><ref>(Быт 9, 9-10 / Gen 9,9-10)</ref></bibl>
+            <bibl corresp="#biblical-26" type="Gen"><ref>(Быт 9, 9-10 / Gen 9,9-10)</ref></bibl>
+            <bibl corresp="#biblical-27" type="Is"><ref>(Ис 14, 26-27 / Is 14,26-27)</ref></bibl>
+            <bibl corresp="#biblical-28" type="Sal"><ref>(Пс 72, 22 / Sal 72,22)</ref></bibl>
+            <bibl corresp="#biblical-29" type="Mt"><ref>(Мф 12, 30 / Mt 12,30)</ref></bibl>
+            <bibl corresp="#biblical-30" type="Gv"><ref>(Ин 10, 27:50 / Gv 10,27:50)</ref></bibl>
+            <bibl corresp="#biblical-31" type="Mt"><ref>(Мф 25, 21 / Gv 25,21)</ref></bibl>
+         </listBibl>
+         
+      </back>
+   </text>
+</TEI>
